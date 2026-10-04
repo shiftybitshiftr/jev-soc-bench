@@ -1,0 +1,1363 @@
+case,report_id,family,topic,arm,threshold,correct,gold,selected
+M0018,f9d3e68d1ad8a7056b334da864a4c65c94803ef5d9c34eee1a53b8b1d49209b2,infostealers,System Interactions,retrieved,0.5,0,B C,B
+M0018,f9d3e68d1ad8a7056b334da864a4c65c94803ef5d9c34eee1a53b8b1d49209b2,infostealers,System Interactions,prefix,0.5,0,B C,B E
+M0018,f9d3e68d1ad8a7056b334da864a4c65c94803ef5d9c34eee1a53b8b1d49209b2,infostealers,System Interactions,none,0.5,0,B C,
+M0020,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,Evasion Techniques,retrieved,0.5,0,J,A D E G I J
+M0020,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,Evasion Techniques,prefix,0.5,0,J,A B C D E F G I J
+M0020,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,Evasion Techniques,none,0.5,0,J,
+M0021,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,System Interactions,retrieved,0.5,1,A,A
+M0021,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,System Interactions,prefix,0.5,1,A,A
+M0021,e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07,infostealers,System Interactions,none,0.5,1,A,A
+M0030,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,Behavioral Analysis,retrieved,0.5,1,F,F
+M0030,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,Behavioral Analysis,prefix,0.5,1,F,F
+M0030,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,Behavioral Analysis,none,0.5,1,F,F
+M0031,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,File Operations,retrieved,0.5,0,A,B
+M0031,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,File Operations,prefix,0.5,0,A,
+M0031,be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a,infostealers,File Operations,none,0.5,0,A,
+M0032,72d8f41b75688b029b15fbc4843d988a9afd1dd4c7acc64bd9ad1b42f0f80a3e,infostealers,Behavioral Analysis,retrieved,0.5,0,A B C D,A
+M0032,72d8f41b75688b029b15fbc4843d988a9afd1dd4c7acc64bd9ad1b42f0f80a3e,infostealers,Behavioral Analysis,prefix,0.5,0,A B C D,
+M0032,72d8f41b75688b029b15fbc4843d988a9afd1dd4c7acc64bd9ad1b42f0f80a3e,infostealers,Behavioral Analysis,none,0.5,0,A B C D,
+M0033,67d4588ff46156a2c2ce7c68405faa77c37384adb7fea589176985ca4b27e1ac,infostealers,System Interactions,retrieved,0.5,0,D,B D E
+M0033,67d4588ff46156a2c2ce7c68405faa77c37384adb7fea589176985ca4b27e1ac,infostealers,System Interactions,prefix,0.5,0,D,A B D E
+M0033,67d4588ff46156a2c2ce7c68405faa77c37384adb7fea589176985ca4b27e1ac,infostealers,System Interactions,none,0.5,0,D,
+M0036,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,Evasion Techniques,retrieved,0.5,0,A B C D E F G I,A B C D E F G H I
+M0036,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,Evasion Techniques,prefix,0.5,0,A B C D E F G I,A B C D E F G H I
+M0036,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,Evasion Techniques,none,0.5,0,A B C D E F G I,
+M0037,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,C,C
+M0037,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,C,A C
+M0037,531d6bd6c0207ffc145c714da946bae8a057be3a3fc7001f5ea800ef8c61679c,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,C,
+M0038,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,retrieved,0.5,0,A C,A C D E
+M0038,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,prefix,0.5,0,A C,A C D
+M0038,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,none,0.5,0,A C,A
+M0039,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Evasion Techniques,retrieved,0.5,1,A B C D E,A B C D E
+M0039,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Evasion Techniques,prefix,0.5,0,A B C D E,A C D E
+M0039,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Evasion Techniques,none,0.5,0,A B C D E,
+M0040,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Risk Assessment,retrieved,0.5,0,A B C D E F G H,A B C D E F G
+M0040,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Risk Assessment,prefix,0.5,0,A B C D E F G H,A B C D E F
+M0040,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Risk Assessment,none,0.5,0,A B C D E F G H,
+M0041,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,retrieved,0.5,0,A B C D E,A C E
+M0041,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,prefix,0.5,0,A B C D E,
+M0041,22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e,infostealers,Behavioral Analysis,none,0.5,0,A B C D E,
+M0042,0fdecbaeb68d2b916735ad041c7b568d88941926d04a39acf34ed98e0305ea1a,infostealers,File Operations,retrieved,0.5,0,A B,A E
+M0042,0fdecbaeb68d2b916735ad041c7b568d88941926d04a39acf34ed98e0305ea1a,infostealers,File Operations,prefix,0.5,0,A B,A C
+M0042,0fdecbaeb68d2b916735ad041c7b568d88941926d04a39acf34ed98e0305ea1a,infostealers,File Operations,none,0.5,0,A B,
+M0043,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Behavioral Analysis,retrieved,0.5,0,G,A B C E F
+M0043,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Behavioral Analysis,prefix,0.5,0,G,B C
+M0043,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Behavioral Analysis,none,0.5,0,G,
+M0044,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,retrieved,0.5,1,D,D
+M0044,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,prefix,0.5,1,D,D
+M0044,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,none,0.5,0,D,
+M0045,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A C D E,A C D E
+M0045,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,1,A C D E,A C D E
+M0045,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,A C D E,
+M0046,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,retrieved,0.5,0,I,B D E I
+M0046,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,prefix,0.5,0,I,A C D E F G H I
+M0046,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,none,0.5,0,I,
+M0047,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,File Operations,retrieved,0.5,0,A B D E F G,A B C D E F
+M0047,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,File Operations,prefix,0.5,0,A B D E F G,A B C F
+M0047,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,File Operations,none,0.5,0,A B D E F G,
+M0048,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,System Interactions,retrieved,0.5,0,D E F,A B C D E F G
+M0048,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,System Interactions,prefix,0.5,0,D E F,E
+M0048,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,System Interactions,none,0.5,0,D E F,
+M0049,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Privilege Escalation,retrieved,0.5,0,B E J,A G I J
+M0049,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Privilege Escalation,prefix,0.5,0,B E J,B E H J
+M0049,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Privilege Escalation,none,0.5,0,B E J,J
+M0050,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,I,F H
+M0050,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,I,A C F H I
+M0050,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,I,
+M0051,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,retrieved,0.5,0,C F G J,A B C D E F G H I J
+M0051,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,prefix,0.5,0,C F G J,A B C D E F G H J
+M0051,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Evasion Techniques,none,0.5,0,C F G J,
+M0052,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,retrieved,0.5,0,E C,E
+M0052,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,prefix,0.5,1,E C,C E
+M0052,a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc,infostealers,Persistence Techniques,none,0.5,1,E C,C E
+M0055,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Persistence Techniques,retrieved,0.5,0,C A D,A B C D
+M0055,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Persistence Techniques,prefix,0.5,1,C A D,A C D
+M0055,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Persistence Techniques,none,0.5,0,C A D,D
+M0056,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Behavioral Analysis,retrieved,0.5,0,A J,A H J
+M0056,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Behavioral Analysis,prefix,0.5,0,A J,A C E J
+M0056,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Behavioral Analysis,none,0.5,0,A J,A E J
+M0057,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,retrieved,0.5,0,A B D C,A B C
+M0057,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,prefix,0.5,1,A B D C,A B C D
+M0057,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,none,0.5,0,A B D C,A
+M0058,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,System Interactions,retrieved,0.5,1,E,E
+M0058,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,System Interactions,prefix,0.5,1,E,E
+M0058,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,System Interactions,none,0.5,1,E,E
+M0059,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Privilege Escalation,retrieved,0.5,0,A,E
+M0059,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Privilege Escalation,prefix,0.5,0,A,A E
+M0059,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Privilege Escalation,none,0.5,0,A,E
+M0060,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,F,B C D E F
+M0060,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,F,A B C D E F
+M0060,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,F,
+M0061,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Evasion Techniques,retrieved,0.5,0,J,A B C F G I J
+M0061,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Evasion Techniques,prefix,0.5,0,J,A B C D E F G I J
+M0061,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Evasion Techniques,none,0.5,0,J,
+M0062,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,retrieved,0.5,1,G,G
+M0062,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,prefix,0.5,1,G,G
+M0062,70bceb4e3e62015b87de30e1063f0dd64c2d43255211845d64ef508d05e17ff2,infostealers,Risk Assessment,none,0.5,0,G,
+M0063,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Behavioral Analysis,retrieved,0.5,0,A B C,A
+M0063,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Behavioral Analysis,prefix,0.5,0,A B C,
+M0063,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Behavioral Analysis,none,0.5,0,A B C,A
+M0064,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,System Interactions,retrieved,0.5,0,A,A B C
+M0064,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,System Interactions,prefix,0.5,0,A,B
+M0064,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,System Interactions,none,0.5,0,A,B
+M0065,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Evasion Techniques,retrieved,0.5,0,A,A D
+M0065,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Evasion Techniques,prefix,0.5,1,A,A
+M0065,dd73d1627ecfbb1ff2ccf3638564b33cac9d938c9504b0eb810f5063ea2531c9,infostealers,Evasion Techniques,none,0.5,0,A,
+M0066,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Behavioral Analysis,retrieved,0.5,1,C,C
+M0066,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Behavioral Analysis,prefix,0.5,1,C,C
+M0066,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Behavioral Analysis,none,0.5,0,C,
+M0067,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,retrieved,0.5,0,J,A B C D E F G H I J
+M0067,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,prefix,0.5,0,J,A B C D E F G H I J
+M0067,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,none,0.5,0,J,
+M0068,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,retrieved,0.5,0,F,A C F
+M0068,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,prefix,0.5,0,F,A B C D E F
+M0068,3e921b459b8dee082170d992356a5329873f2a22cf509be6c3010f75d71c90e1,infostealers,Evasion Techniques,none,0.5,0,F,
+M0069,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Privilege Escalation,retrieved,0.5,1,F,F
+M0069,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Privilege Escalation,prefix,0.5,0,F,
+M0069,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Privilege Escalation,none,0.5,0,F,
+M0070,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,System Interactions,retrieved,0.5,0,B,B D E
+M0070,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,System Interactions,prefix,0.5,0,B,B D E
+M0070,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,System Interactions,none,0.5,1,B,B
+M0071,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Evasion Techniques,retrieved,0.5,0,A B,A D
+M0071,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Evasion Techniques,prefix,0.5,0,A B,A
+M0071,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Evasion Techniques,none,0.5,0,A B,D
+M0072,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Persistence Techniques,retrieved,0.5,0,A,A C
+M0072,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Persistence Techniques,prefix,0.5,0,A,
+M0072,511bca581824f939cba8f72afb50c5d8838269f61c8d4e147cc37b8f55927f0e,infostealers,Persistence Techniques,none,0.5,0,A,
+M0073,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,retrieved,0.5,0,C D,A D
+M0073,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,prefix,0.5,0,C D,A C D
+M0073,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,none,0.5,0,C D,
+M0074,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Persistence Techniques,retrieved,0.5,0,D,B D F
+M0074,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Persistence Techniques,prefix,0.5,0,D,B D F
+M0074,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Persistence Techniques,none,0.5,0,D,
+M0075,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,retrieved,0.5,0,D A E,A C D E
+M0075,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,prefix,0.5,0,D A E,A C D E
+M0075,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,none,0.5,1,D A E,A D E
+M0076,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,retrieved,0.5,0,C F A E,F
+M0076,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,prefix,0.5,0,C F A E,A F
+M0076,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Behavioral Analysis,none,0.5,0,C F A E,E F
+M0077,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,File Operations,retrieved,0.5,0,A C E D,A C E
+M0077,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,File Operations,prefix,0.5,0,A C E D,A C
+M0077,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,File Operations,none,0.5,0,A C E D,A
+M0078,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,System Interactions,retrieved,0.5,0,G,B C D F G
+M0078,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,System Interactions,prefix,0.5,0,G,A B E F
+M0078,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,System Interactions,none,0.5,0,G,
+M0079,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,H,A B C D E F G H
+M0079,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,H,A B C D E F G H
+M0079,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,H,
+M0080,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Evasion Techniques,retrieved,0.5,0,B C D E F G H I J,A B D F G H I
+M0080,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Evasion Techniques,prefix,0.5,0,B C D E F G H I J,A B C D E F G H I J
+M0080,070e719b0b9b5027c8629b058868f8faa6d224cdc4fed3f2e11041ff677aafa1,infostealers,Evasion Techniques,none,0.5,0,B C D E F G H I J,
+M0084,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,System Interactions,retrieved,0.5,1,A,A
+M0084,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,System Interactions,prefix,0.5,1,A,A
+M0084,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,System Interactions,none,0.5,0,A,
+M0085,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A,
+M0085,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0085,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0086,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,Evasion Techniques,retrieved,0.5,0,H,B E
+M0086,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,Evasion Techniques,prefix,0.5,0,H,E
+M0086,604216b59f6785b80a8a58229e2743cf659584a2378b30111e168cbe7c2bd3a6,infostealers,Evasion Techniques,none,0.5,0,H,
+M0087,48c6e4a7c0cb1d1f353362edead646db84a49d943fa42543e0434ce4231f25b1,infostealers,Risk Assessment,retrieved,0.5,1,A B C,A B C
+M0087,48c6e4a7c0cb1d1f353362edead646db84a49d943fa42543e0434ce4231f25b1,infostealers,Risk Assessment,prefix,0.5,1,A B C,A B C
+M0087,48c6e4a7c0cb1d1f353362edead646db84a49d943fa42543e0434ce4231f25b1,infostealers,Risk Assessment,none,0.5,1,A B C,A B C
+M0091,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Persistence Techniques,retrieved,0.5,1,A C E,A C E
+M0091,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Persistence Techniques,prefix,0.5,1,A C E,A C E
+M0091,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Persistence Techniques,none,0.5,0,A C E,
+M0092,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Behavioral Analysis,retrieved,0.5,0,C F,C E F
+M0092,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Behavioral Analysis,prefix,0.5,1,C F,C F
+M0092,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Behavioral Analysis,none,0.5,0,C F,F
+M0093,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,retrieved,0.5,0,A B C D F G,A B C D F G I
+M0093,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,prefix,0.5,0,A B C D F G,A B C D F I
+M0093,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,none,0.5,0,A B C D F G,
+M0094,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,System Interactions,retrieved,0.5,1,F,F
+M0094,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,System Interactions,prefix,0.5,1,F,F
+M0094,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,System Interactions,none,0.5,1,F,F
+M0095,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,retrieved,0.5,0,A B C D E F G H,A B C E F G I J
+M0095,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,prefix,0.5,0,A B C D E F G H,A B C D E F G I J
+M0095,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Evasion Techniques,none,0.5,0,A B C D E F G H,
+M0096,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Risk Assessment,retrieved,0.5,0,E,C G
+M0096,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Risk Assessment,prefix,0.5,0,E,F
+M0096,8e7cf6179094262b5088d5c00566541381676c1ff38525be51857bb21ee97b6c,infostealers,Risk Assessment,none,0.5,0,E,C
+M0097,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Evasion Techniques,retrieved,0.5,0,E F,A C D E F
+M0097,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Evasion Techniques,prefix,0.5,0,E F,A B C D E F
+M0097,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Evasion Techniques,none,0.5,0,E F,
+M0098,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Persistence Techniques,retrieved,0.5,0,A B E F,A B C E F
+M0098,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Persistence Techniques,prefix,0.5,0,A B E F,A B C E F
+M0098,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Persistence Techniques,none,0.5,0,A B E F,
+M0099,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Risk Assessment,retrieved,0.5,0,A B C D,A B
+M0099,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Risk Assessment,prefix,0.5,0,A B C D,A B D
+M0099,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,Risk Assessment,none,0.5,0,A B C D,B
+M0100,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,File Operations,retrieved,0.5,0,A,A B C E
+M0100,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,File Operations,prefix,0.5,0,A,A C
+M0100,29ed4d2479ab0cfdc61bfb2f87f81463af3f3dbc61c015d2bc013550b32627a9,infostealers,File Operations,none,0.5,0,A,
+M0101,4044e30f0188bbc151ea29b345d47e3586028f949905c97dce6e0343f1818462,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,E,
+M0101,4044e30f0188bbc151ea29b345d47e3586028f949905c97dce6e0343f1818462,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,E,
+M0101,4044e30f0188bbc151ea29b345d47e3586028f949905c97dce6e0343f1818462,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,E,
+M0102,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Privilege Escalation,retrieved,0.5,0,B,
+M0102,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Privilege Escalation,prefix,0.5,0,B,
+M0102,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Privilege Escalation,none,0.5,0,B,
+M0103,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Behavioral Analysis,retrieved,0.5,1,A,A
+M0103,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Behavioral Analysis,prefix,0.5,0,A,
+M0103,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,Behavioral Analysis,none,0.5,1,A,A
+M0104,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,File Operations,retrieved,0.5,0,E F G H,A E F G H
+M0104,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,File Operations,prefix,0.5,0,E F G H,A F
+M0104,6c44f12613fc720b7520a01590d950c8c0d8bb3e90284fdee076d3b5d64ab0d2,infostealers,File Operations,none,0.5,0,E F G H,
+M0108,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,retrieved,0.5,1,B,B
+M0108,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,prefix,0.5,1,B,B
+M0108,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,none,0.5,0,B,
+M0109,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Persistence Techniques,retrieved,0.5,1,B,B
+M0109,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Persistence Techniques,prefix,0.5,0,B,A B
+M0109,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Persistence Techniques,none,0.5,0,B,
+M0110,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,retrieved,0.5,0,B D E,B D E F
+M0110,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,prefix,0.5,0,B D E,B D E F
+M0110,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,none,0.5,0,B D E,
+M0111,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,retrieved,0.5,0,D B C,C D
+M0111,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,prefix,0.5,0,D B C,B D
+M0111,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,none,0.5,0,D B C,
+M0112,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,System Interactions,retrieved,0.5,1,A,A
+M0112,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,System Interactions,prefix,0.5,1,A,A
+M0112,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,System Interactions,none,0.5,1,A,A
+M0113,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,retrieved,0.5,1,B,B
+M0113,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,prefix,0.5,0,B,A C
+M0113,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Behavioral Analysis,none,0.5,0,B,
+M0114,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,E,B E
+M0114,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,E,B C D E
+M0114,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,E,
+M0115,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,retrieved,0.5,0,A C B,B C E
+M0115,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,prefix,0.5,0,A C B,A B C D E
+M0115,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Evasion Techniques,none,0.5,0,A C B,
+M0116,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Risk Assessment,retrieved,0.5,0,C E G B,A B C E F G H
+M0116,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Risk Assessment,prefix,0.5,0,C E G B,C F G H
+M0116,7b5a05478b59b5382b30f75364e994877c1db6fd88625eb95ebf0ee54e5682b9,infostealers,Risk Assessment,none,0.5,0,C E G B,C E
+M0117,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Privilege Escalation,retrieved,0.5,0,B C,
+M0117,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Privilege Escalation,prefix,0.5,0,B C,
+M0117,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Privilege Escalation,none,0.5,0,B C,
+M0118,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,System Interactions,retrieved,0.5,0,B C D E F,A B C D E
+M0118,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,System Interactions,prefix,0.5,0,B C D E F,B
+M0118,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,System Interactions,none,0.5,0,B C D E F,
+M0119,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A D E,E
+M0119,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A D E,
+M0119,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,A D E,
+M0120,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Evasion Techniques,retrieved,0.5,0,C D,C D E
+M0120,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Evasion Techniques,prefix,0.5,0,C D,C D E
+M0120,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Evasion Techniques,none,0.5,0,C D,C D E
+M0121,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Persistence Techniques,retrieved,0.5,0,G,A B C D E G
+M0121,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Persistence Techniques,prefix,0.5,0,G,A B C D E F G
+M0121,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Persistence Techniques,none,0.5,0,G,D
+M0122,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Risk Assessment,retrieved,0.5,0,A B C,A B
+M0122,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Risk Assessment,prefix,0.5,0,A B C,A B
+M0122,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,Risk Assessment,none,0.5,0,A B C,
+M0123,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,File Operations,retrieved,0.5,0,A B C D E,A C D E
+M0123,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,File Operations,prefix,0.5,0,A B C D E,A C E
+M0123,f1644ff690ceac14ab04e7e712d64ec91b0c0c8df3689844a47f9a02dee0a814,infostealers,File Operations,none,0.5,0,A B C D E,E
+M0124,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,retrieved,0.5,1,B C,B C
+M0124,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,prefix,0.5,0,B C,C
+M0124,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,none,0.5,0,B C,
+M0125,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Persistence Techniques,retrieved,0.5,0,F A,A C F
+M0125,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Persistence Techniques,prefix,0.5,0,F A,A C F
+M0125,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Persistence Techniques,none,0.5,0,F A,
+M0126,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,retrieved,0.5,0,F,E F
+M0126,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,prefix,0.5,0,F,C D F
+M0126,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Behavioral Analysis,none,0.5,1,F,F
+M0127,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,retrieved,0.5,0,A C D,A D E
+M0127,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,prefix,0.5,0,A C D,A C D E
+M0127,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,none,0.5,0,A C D,A D E
+M0128,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,File Operations,retrieved,0.5,0,A E C D,A B C D E
+M0128,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,File Operations,prefix,0.5,0,A E C D,A D E
+M0128,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,File Operations,none,0.5,0,A E C D,
+M0129,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,System Interactions,retrieved,0.5,1,F,F
+M0129,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,System Interactions,prefix,0.5,0,F,C F
+M0129,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,System Interactions,none,0.5,0,F,
+M0130,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Privilege Escalation,retrieved,0.5,0,E F A B,C F
+M0130,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Privilege Escalation,prefix,0.5,0,E F A B,E
+M0130,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Privilege Escalation,none,0.5,0,E F A B,
+M0131,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,I,A B C D E F G
+M0131,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,I,A B C D E F G H I
+M0131,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,I,
+M0132,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Evasion Techniques,retrieved,0.5,0,A B C D G H I J,A F I
+M0132,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Evasion Techniques,prefix,0.5,0,A B C D G H I J,A B C D F G H I J
+M0132,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Evasion Techniques,none,0.5,0,A B C D G H I J,
+M0133,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,retrieved,0.5,0,I,B I
+M0133,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,prefix,0.5,0,I,B C F I
+M0133,75c882c2ecaec085b72035e6a233ac566593ea51c579d1faca791c0427c239f0,infostealers,Risk Assessment,none,0.5,0,I,
+M0134,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,retrieved,0.5,1,C,C
+M0134,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,prefix,0.5,1,C,C
+M0134,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,none,0.5,0,C,
+M0135,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Persistence Techniques,retrieved,0.5,1,D,D
+M0135,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Persistence Techniques,prefix,0.5,1,D,D
+M0135,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Persistence Techniques,none,0.5,0,D,
+M0136,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,retrieved,0.5,0,B D,B
+M0136,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,prefix,0.5,1,B D,B D
+M0136,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Behavioral Analysis,none,0.5,0,B D,A C
+M0137,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,System Interactions,retrieved,0.5,1,A,A
+M0137,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,System Interactions,prefix,0.5,1,A,A
+M0137,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,System Interactions,none,0.5,0,A,
+M0138,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,F,A B C D F
+M0138,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,F,B C E F
+M0138,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,F,
+M0139,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Evasion Techniques,retrieved,0.5,0,A B C E G H I J,A B C D E F G H I J
+M0139,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Evasion Techniques,prefix,0.5,0,A B C E G H I J,A B C D E F G H I J
+M0139,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Evasion Techniques,none,0.5,0,A B C E G H I J,
+M0140,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Risk Assessment,retrieved,0.5,1,F,F
+M0140,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Risk Assessment,prefix,0.5,1,F,F
+M0140,9a301b34be9ebda00f6c1930c4b56a054683b44a2c59d0017a7a4b2bf39c0500,infostealers,Risk Assessment,none,0.5,0,F,
+M0141,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Behavioral Analysis,retrieved,0.5,1,A,A
+M0141,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Behavioral Analysis,prefix,0.5,0,A,A B
+M0141,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Behavioral Analysis,none,0.5,1,A,A
+M0142,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C,F
+M0142,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C,C F G
+M0142,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C,F G
+M0143,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Risk Assessment,retrieved,0.5,1,A,A
+M0143,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Risk Assessment,prefix,0.5,0,A,A B C
+M0143,3ec2e13ed994079d492e1b17988eb95c657340ca24bfcb65d52c5810c39ea7c8,infostealers,Risk Assessment,none,0.5,0,A,
+M0144,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Behavioral Analysis,retrieved,0.5,0,A B C,A C
+M0144,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Behavioral Analysis,prefix,0.5,1,A B C,A B C
+M0144,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Behavioral Analysis,none,0.5,0,A B C,B C
+M0145,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Evasion Techniques,retrieved,0.5,0,A B D,A B C D
+M0145,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Evasion Techniques,prefix,0.5,0,A B D,D
+M0145,934cac5ad03fc72a950ffd7b65ae2eaf9852b7ea1d2562d880a55244f34bd963,infostealers,Evasion Techniques,none,0.5,1,A B D,A B D
+M0146,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Privilege Escalation,retrieved,0.5,0,E G H,
+M0146,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Privilege Escalation,prefix,0.5,0,E G H,
+M0146,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Privilege Escalation,none,0.5,0,E G H,
+M0147,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,C,
+M0147,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,C,
+M0147,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,MITRE ATT&CK Framework Mapping,none,0.5,0,C,
+M0148,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Risk Assessment,retrieved,0.5,0,B F,A B F
+M0148,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Risk Assessment,prefix,0.5,0,B F,A F
+M0148,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,Risk Assessment,none,0.5,0,B F,B E
+M0149,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,File Operations,retrieved,0.5,0,B,A D
+M0149,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,File Operations,prefix,0.5,0,B,D
+M0149,c30e0dacc492713127ad13cd8f7814aea6e97ea4fbe3698944712b3dcced7afa,infostealers,File Operations,none,0.5,0,B,D
+M0150,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Privilege Escalation,retrieved,0.5,0,A E,
+M0150,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Privilege Escalation,prefix,0.5,0,A E,
+M0150,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Privilege Escalation,none,0.5,0,A E,
+M0151,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Risk Assessment,retrieved,0.5,0,B D E,A B E F
+M0151,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Risk Assessment,prefix,0.5,0,B D E,A D E
+M0151,5032d656bb93de0d6edb240ea94ce3780ace041897a62eb59561af7fbba0e60e,infostealers,Risk Assessment,none,0.5,0,B D E,
+M0152,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,retrieved,0.5,0,A B C,C
+M0152,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,prefix,0.5,1,A B C,A B C
+M0152,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,none,0.5,1,A B C,A B C
+M0153,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,retrieved,0.5,0,C D E,C D
+M0153,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,prefix,0.5,0,C D E,C D
+M0153,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,Behavioral Analysis,none,0.5,0,C D E,
+M0154,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,File Operations,retrieved,0.5,0,A B D F,A C D F
+M0154,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,File Operations,prefix,0.5,0,A B D F,A C F
+M0154,cc7d38cdc5f43a9a157d4c71445a4f4bd46d47e4221113886a9e8d2b50c76229,infostealers,File Operations,none,0.5,0,A B D F,
+M0155,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,System Interactions,retrieved,0.5,1,B,B
+M0155,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,System Interactions,prefix,0.5,1,B,B
+M0155,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,System Interactions,none,0.5,0,B,
+M0156,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,File Operations,retrieved,0.5,1,A,A
+M0156,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,File Operations,prefix,0.5,1,A,A
+M0156,3d8af879bbbde5e9f5598715c576bf33fadeeae034114384893df9c534f86084,infostealers,File Operations,none,0.5,1,A,A
+M0162,3ff0ec906b60ba0f9ba810c96e0b2039330e16addbef2bf3648de286faaaeaac,infostealers,Behavioral Analysis,retrieved,0.5,1,B,B
+M0162,3ff0ec906b60ba0f9ba810c96e0b2039330e16addbef2bf3648de286faaaeaac,infostealers,Behavioral Analysis,prefix,0.5,0,B,
+M0162,3ff0ec906b60ba0f9ba810c96e0b2039330e16addbef2bf3648de286faaaeaac,infostealers,Behavioral Analysis,none,0.5,0,B,
+M0165,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,Behavioral Analysis,retrieved,0.5,1,A,A
+M0165,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,Behavioral Analysis,prefix,0.5,0,A,
+M0165,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,Behavioral Analysis,none,0.5,0,A,
+M0166,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,System Interactions,retrieved,0.5,1,B C,B C
+M0166,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,System Interactions,prefix,0.5,1,B C,B C
+M0166,24e359dc902b844ab74d2135114a140cf3dc741bd872505837361b756f31bc9e,infostealers,System Interactions,none,0.5,0,B C,
+M0167,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,retrieved,0.5,0,D E F A C,B C D E F
+M0167,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,prefix,0.5,0,D E F A C,C D E F
+M0167,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,none,0.5,0,D E F A C,D F
+M0168,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,retrieved,0.5,1,B E F G,B E F G
+M0168,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,prefix,0.5,1,B E F G,B E F G
+M0168,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,none,0.5,0,B E F G,B
+M0169,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,File Operations,retrieved,0.5,0,D,B D
+M0169,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,File Operations,prefix,0.5,1,D,D
+M0169,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,File Operations,none,0.5,0,D,
+M0170,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,System Interactions,retrieved,0.5,1,B,B
+M0170,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,System Interactions,prefix,0.5,1,B,B
+M0170,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,System Interactions,none,0.5,0,B,
+M0171,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,retrieved,0.5,0,A D E,
+M0171,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,prefix,0.5,0,A D E,
+M0171,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Persistence Techniques,none,0.5,0,A D E,
+M0172,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,retrieved,0.5,0,A B F,A F
+M0172,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,prefix,0.5,0,A B F,A F
+M0172,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Evasion Techniques,none,0.5,0,A B F,F
+M0173,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Risk Assessment,retrieved,0.5,0,A B F,A B C F
+M0173,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Risk Assessment,prefix,0.5,0,A B F,A B C F
+M0173,e7d3181ef643d77bb33fe328d1ea58f512b4f27c8e6ed71935a2e7548f2facc0,um_unhooking,Risk Assessment,none,0.5,0,A B F,
+M0183,a05546c4b43f4ee25e74acc3de8202a956f4d44557c1c0ac2b4b8c0ef0b60f62,um_unhooking,Risk Assessment,retrieved,0.5,0,A B C D F G H,C D F G H
+M0183,a05546c4b43f4ee25e74acc3de8202a956f4d44557c1c0ac2b4b8c0ef0b60f62,um_unhooking,Risk Assessment,prefix,0.5,0,A B C D F G H,C D F G H
+M0183,a05546c4b43f4ee25e74acc3de8202a956f4d44557c1c0ac2b4b8c0ef0b60f62,um_unhooking,Risk Assessment,none,0.5,0,A B C D F G H,
+M0186,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Behavioral Analysis,retrieved,0.5,0,A B,A B C
+M0186,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Behavioral Analysis,prefix,0.5,0,A B,A
+M0186,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Behavioral Analysis,none,0.5,0,A B,
+M0187,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,System Interactions,retrieved,0.5,1,E,E
+M0187,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,System Interactions,prefix,0.5,1,E,E
+M0187,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,System Interactions,none,0.5,0,E,
+M0188,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B,A
+M0188,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B,A
+M0188,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A B,A
+M0189,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Persistence Techniques,retrieved,0.5,0,A B,A B C D E
+M0189,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Persistence Techniques,prefix,0.5,0,A B,A B C D
+M0189,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,Persistence Techniques,none,0.5,0,A B,
+M0190,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,File Operations,retrieved,0.5,0,A B C E F G H,D E F G
+M0190,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,File Operations,prefix,0.5,0,A B C E F G H,A H
+M0190,8ae432a105ad4d956dd273e90e99a0dc0a40677214b896f1a38de4e5f4a2eca1,um_unhooking,File Operations,none,0.5,0,A B C E F G H,G
+M0191,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Behavioral Analysis,retrieved,0.5,1,A,A
+M0191,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Behavioral Analysis,prefix,0.5,0,A,
+M0191,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Behavioral Analysis,none,0.5,0,A,
+M0192,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,System Interactions,retrieved,0.5,0,A B,E
+M0192,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,System Interactions,prefix,0.5,0,A B,A
+M0192,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,System Interactions,none,0.5,0,A B,
+M0193,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Evasion Techniques,retrieved,0.5,0,E F,A B C D E F
+M0193,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Evasion Techniques,prefix,0.5,0,E F,B F
+M0193,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Evasion Techniques,none,0.5,0,E F,
+M0194,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Persistence Techniques,retrieved,0.5,0,B F,A B C D E F G
+M0194,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Persistence Techniques,prefix,0.5,0,B F,A B C D E F G
+M0194,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,Persistence Techniques,none,0.5,0,B F,
+M0195,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,File Operations,retrieved,0.5,0,A D,A C
+M0195,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,File Operations,prefix,0.5,0,A D,A E
+M0195,71caf290168c22d29d9d2c3e2702a0b0e7c7f44b5ceee88eb7fab1c6e7058e9f,um_unhooking,File Operations,none,0.5,0,A D,F
+M0196,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Persistence Techniques,retrieved,0.5,0,E,D F
+M0196,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Persistence Techniques,prefix,0.5,0,E,D F
+M0196,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Persistence Techniques,none,0.5,0,E,A
+M0197,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,System Interactions,retrieved,0.5,1,C D,C D
+M0197,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,System Interactions,prefix,0.5,1,C D,C D
+M0197,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,System Interactions,none,0.5,0,C D,
+M0198,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Evasion Techniques,retrieved,0.5,0,A B C D,A B C D E F G H
+M0198,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Evasion Techniques,prefix,0.5,0,A B C D,A B C D E F G H
+M0198,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Evasion Techniques,none,0.5,0,A B C D,A
+M0199,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Risk Assessment,retrieved,0.5,0,C E,A B C D E F
+M0199,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Risk Assessment,prefix,0.5,0,C E,A B C D E F
+M0199,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,Risk Assessment,none,0.5,0,C E,
+M0200,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,File Operations,retrieved,0.5,1,F,F
+M0200,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,File Operations,prefix,0.5,1,F,F
+M0200,73a435399cf3116da6987933e5b067dd45d97d034f107085016c0a27869bc45d,um_unhooking,File Operations,none,0.5,0,F,
+M0201,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Privilege Escalation,retrieved,0.5,0,G,C
+M0201,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Privilege Escalation,prefix,0.5,0,G,C G
+M0201,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Privilege Escalation,none,0.5,1,G,G
+M0202,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,System Interactions,retrieved,0.5,0,A B C,A D E
+M0202,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,System Interactions,prefix,0.5,0,A B C,A C
+M0202,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,System Interactions,none,0.5,0,A B C,
+M0203,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A,
+M0203,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0203,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0204,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Persistence Techniques,retrieved,0.5,0,A,A B C D E
+M0204,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Persistence Techniques,prefix,0.5,0,A,A B E
+M0204,89556f10251b58f31a9e3cbf5b298a1e325e4ada7344da89bea648d00f695014,um_unhooking,Persistence Techniques,none,0.5,0,A,
+M0205,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,retrieved,0.5,0,B,
+M0205,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,prefix,0.5,0,B,
+M0205,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,none,0.5,0,B,
+M0206,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Persistence Techniques,retrieved,0.5,0,C D,A B C D E G
+M0206,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Persistence Techniques,prefix,0.5,0,C D,A B C D E G
+M0206,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Persistence Techniques,none,0.5,0,C D,
+M0207,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Risk Assessment,retrieved,0.5,1,A C D E,A C D E
+M0207,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Risk Assessment,prefix,0.5,0,A C D E,A C E
+M0207,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Risk Assessment,none,0.5,0,A C D E,D
+M0208,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,retrieved,0.5,0,F,D F
+M0208,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,prefix,0.5,1,F,F
+M0208,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,Behavioral Analysis,none,0.5,0,F,
+M0209,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,File Operations,retrieved,0.5,0,A D E F G,A C E F G
+M0209,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,File Operations,prefix,0.5,0,A D E F G,A C G
+M0209,1391626e285e40ea8a552ef63d340447762775a092237398135f91eb1ffe8f08,um_unhooking,File Operations,none,0.5,0,A D E F G,
+M0210,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Behavioral Analysis,retrieved,0.5,1,C,C
+M0210,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Behavioral Analysis,prefix,0.5,0,C,
+M0210,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Behavioral Analysis,none,0.5,0,C,
+M0211,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,System Interactions,retrieved,0.5,0,A B C D,A B D
+M0211,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,System Interactions,prefix,0.5,0,A B C D,A B D E
+M0211,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,System Interactions,none,0.5,0,A B C D,
+M0212,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Evasion Techniques,retrieved,0.5,0,D,C F
+M0212,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Evasion Techniques,prefix,0.5,0,D,
+M0212,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Evasion Techniques,none,0.5,0,D,
+M0213,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Persistence Techniques,retrieved,0.5,0,A D,A B C D E F
+M0213,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Persistence Techniques,prefix,0.5,0,A D,A B C D E F
+M0213,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,Persistence Techniques,none,0.5,0,A D,
+M0214,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,File Operations,retrieved,0.5,0,A,A B C
+M0214,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,File Operations,prefix,0.5,1,A,A
+M0214,25153247a5bb3a232e051b5fcc7be2bd477a8ddd8e9a50cffd78676ac2d6199d,um_unhooking,File Operations,none,0.5,0,A,
+M0215,8e49a7b584b8035af0b605397a6f34bd1b7bd658914ce169833d1d072298eee3,um_unhooking,System Interactions,retrieved,0.5,0,G,B C D E G
+M0215,8e49a7b584b8035af0b605397a6f34bd1b7bd658914ce169833d1d072298eee3,um_unhooking,System Interactions,prefix,0.5,0,G,A
+M0215,8e49a7b584b8035af0b605397a6f34bd1b7bd658914ce169833d1d072298eee3,um_unhooking,System Interactions,none,0.5,0,G,
+M0216,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,System Interactions,retrieved,0.5,1,D,D
+M0216,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,System Interactions,prefix,0.5,1,D,D
+M0216,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,System Interactions,none,0.5,0,D,E
+M0217,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Persistence Techniques,retrieved,0.5,0,A,A B C D E
+M0217,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Persistence Techniques,prefix,0.5,0,A,A C D
+M0217,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Persistence Techniques,none,0.5,0,A,B
+M0218,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Risk Assessment,retrieved,0.5,0,F G D E,F G
+M0218,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Risk Assessment,prefix,0.5,0,F G D E,E F G
+M0218,6e13a1dcc528e5e5ad63a82c4b5054b94d4a95bbf357879a98effa32894931ab,um_unhooking,Risk Assessment,none,0.5,0,F G D E,
+M0219,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,retrieved,0.5,0,A,B
+M0219,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,prefix,0.5,0,A,E
+M0219,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,none,0.5,0,A,
+M0220,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Behavioral Analysis,retrieved,0.5,1,A B,A B
+M0220,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Behavioral Analysis,prefix,0.5,0,A B,
+M0220,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Behavioral Analysis,none,0.5,1,A B,A B
+M0221,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,System Interactions,retrieved,0.5,0,D,C
+M0221,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,System Interactions,prefix,0.5,0,D,C
+M0221,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,System Interactions,none,0.5,0,D,
+M0222,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,retrieved,0.5,0,A E,A B C D E
+M0222,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,prefix,0.5,0,A E,A B D E
+M0222,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Persistence Techniques,none,0.5,0,A E,
+M0223,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Risk Assessment,retrieved,0.5,0,A,A B D
+M0223,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Risk Assessment,prefix,0.5,0,A,A D
+M0223,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,Risk Assessment,none,0.5,0,A,
+M0224,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,File Operations,retrieved,0.5,0,A B D E F,A C E F G
+M0224,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,File Operations,prefix,0.5,0,A B D E F,F
+M0224,189a5558a4cb373f8c8035808fa7bffc20478efb068b02cc1f7d27bb34740e48,um_unhooking,File Operations,none,0.5,0,A B D E F,
+M0225,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C D,B C D
+M0225,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C D,F
+M0225,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C D,D
+M0226,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Evasion Techniques,retrieved,0.5,1,B C D E,B C D E
+M0226,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Evasion Techniques,prefix,0.5,0,B C D E,A
+M0226,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Evasion Techniques,none,0.5,0,B C D E,D
+M0227,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Risk Assessment,retrieved,0.5,0,A B C D E F,A B C D E F G
+M0227,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Risk Assessment,prefix,0.5,0,A B C D E F,A B C D E F G
+M0227,b47b40aeaf31f4342d50be9cb114ccdce5903db6c6aa84c73b3cb69a50bea774,um_unhooking,Risk Assessment,none,0.5,0,A B C D E F,
+M0228,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Privilege Escalation,retrieved,0.5,0,F,B
+M0228,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Privilege Escalation,prefix,0.5,1,F,F
+M0228,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Privilege Escalation,none,0.5,1,F,F
+M0229,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,System Interactions,retrieved,0.5,0,B E,E
+M0229,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,System Interactions,prefix,0.5,0,B E,B
+M0229,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,System Interactions,none,0.5,0,B E,
+M0230,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Persistence Techniques,retrieved,0.5,0,C,A C D E
+M0230,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Persistence Techniques,prefix,0.5,1,C,C
+M0230,870b052420242560141194c487119e92e9eea4042a3e35488ab702baf78f2663,um_unhooking,Persistence Techniques,none,0.5,0,C,
+M0235,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Behavioral Analysis,retrieved,0.5,0,E,
+M0235,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Behavioral Analysis,prefix,0.5,0,E,
+M0235,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Behavioral Analysis,none,0.5,0,E,
+M0236,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,System Interactions,retrieved,0.5,0,E,A B C D F
+M0236,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,System Interactions,prefix,0.5,0,E,F
+M0236,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,System Interactions,none,0.5,0,E,
+M0237,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B,A
+M0237,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B,
+M0237,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A B,
+M0238,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Persistence Techniques,retrieved,0.5,0,D E,A B C D E F
+M0238,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Persistence Techniques,prefix,0.5,0,D E,D E F
+M0238,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Persistence Techniques,none,0.5,0,D E,
+M0239,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Risk Assessment,retrieved,0.5,0,C D,C
+M0239,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Risk Assessment,prefix,0.5,0,C D,C E
+M0239,25c97105d482ed561e53b782cfeb071336e9ffc9e9966a962bd9ef492e69e035,um_unhooking,Risk Assessment,none,0.5,0,C D,
+M0240,eb12f84dc119300392e661b5b9aefe380bace7ba5da9f7bf11eac63d9c801ee7,um_unhooking,System Interactions,retrieved,0.5,1,E,E
+M0240,eb12f84dc119300392e661b5b9aefe380bace7ba5da9f7bf11eac63d9c801ee7,um_unhooking,System Interactions,prefix,0.5,0,E,
+M0240,eb12f84dc119300392e661b5b9aefe380bace7ba5da9f7bf11eac63d9c801ee7,um_unhooking,System Interactions,none,0.5,0,E,
+M0244,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Privilege Escalation,retrieved,0.5,1,B C E,B C E
+M0244,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Privilege Escalation,prefix,0.5,0,B C E,A B C D E F
+M0244,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Privilege Escalation,none,0.5,0,B C E,
+M0245,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,System Interactions,retrieved,0.5,1,B,B
+M0245,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,System Interactions,prefix,0.5,1,B,B
+M0245,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,System Interactions,none,0.5,1,B,B
+M0246,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C,A
+M0246,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C,
+M0246,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C,C
+M0247,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Evasion Techniques,retrieved,0.5,1,A B E C,A B C E
+M0247,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Evasion Techniques,prefix,0.5,0,A B E C,
+M0247,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Evasion Techniques,none,0.5,0,A B E C,B C D
+M0248,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Persistence Techniques,retrieved,0.5,0,D,B E
+M0248,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Persistence Techniques,prefix,0.5,1,D,D
+M0248,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Persistence Techniques,none,0.5,0,D,
+M0249,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Risk Assessment,retrieved,0.5,0,A B,A B C
+M0249,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Risk Assessment,prefix,0.5,0,A B,A B C
+M0249,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,Risk Assessment,none,0.5,0,A B,
+M0250,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,File Operations,retrieved,0.5,0,A B D E,A C
+M0250,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,File Operations,prefix,0.5,0,A B D E,A
+M0250,d510af41349a55e3d3c3233acb0540c72492301d3fc360d6aa7c47e1037cd2c2,um_unhooking,File Operations,none,0.5,0,A B D E,
+M0251,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Behavioral Analysis,retrieved,0.5,0,A,C D
+M0251,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Behavioral Analysis,prefix,0.5,0,A,C D
+M0251,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Behavioral Analysis,none,0.5,0,A,C D
+M0252,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,System Interactions,retrieved,0.5,1,B D,B D
+M0252,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,System Interactions,prefix,0.5,0,B D,C D
+M0252,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,System Interactions,none,0.5,0,B D,
+M0253,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A C,A C
+M0253,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A C,
+M0253,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,MITRE ATT&CK Framework Mapping,none,0.5,0,A C,
+M0254,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Risk Assessment,retrieved,0.5,0,B C A,A B C F
+M0254,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Risk Assessment,prefix,0.5,1,B C A,A B C
+M0254,308041c7ec841b30a3e2bc6faaf475372a6306962af84cf26424656d52dca739,um_unhooking,Risk Assessment,none,0.5,0,B C A,B
+M0255,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Behavioral Analysis,retrieved,0.5,0,B,
+M0255,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Behavioral Analysis,prefix,0.5,0,B,
+M0255,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Behavioral Analysis,none,0.5,0,B,
+M0256,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,System Interactions,retrieved,0.5,0,G,A B C D E F G
+M0256,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,System Interactions,prefix,0.5,0,G,E
+M0256,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,System Interactions,none,0.5,0,G,E
+M0257,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Risk Assessment,retrieved,0.5,1,G,G
+M0257,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Risk Assessment,prefix,0.5,0,G,C E G
+M0257,8a0cabf213753b71e35186ff3f3472c1a333433b6db9b0d9e7f946faef3e1970,um_unhooking,Risk Assessment,none,0.5,0,G,
+M0258,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,retrieved,0.5,0,B,B D
+M0258,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,prefix,0.5,0,B,
+M0258,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,none,0.5,0,B,
+M0259,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,System Interactions,retrieved,0.5,0,F,
+M0259,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,System Interactions,prefix,0.5,0,F,A
+M0259,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,System Interactions,none,0.5,0,F,
+M0260,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Evasion Techniques,retrieved,0.5,0,B E D,
+M0260,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Evasion Techniques,prefix,0.5,0,B E D,E
+M0260,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Evasion Techniques,none,0.5,0,B E D,E
+M0261,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,retrieved,0.5,0,A,A C E
+M0261,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,prefix,0.5,1,A,A
+M0261,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Persistence Techniques,none,0.5,0,A,
+M0262,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Risk Assessment,retrieved,0.5,0,A B,B
+M0262,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Risk Assessment,prefix,0.5,0,A B,B
+M0262,120894e1a20de2fefb24647fa436890ff581a6e33945e1a17664606e16eab5b4,um_unhooking,Risk Assessment,none,0.5,0,A B,B
+M0263,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,System Interactions,retrieved,0.5,0,A B C D,B D
+M0263,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,System Interactions,prefix,0.5,0,A B C D,B D
+M0263,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,System Interactions,none,0.5,0,A B C D,
+M0264,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Persistence Techniques,retrieved,0.5,0,A,A B C E
+M0264,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Persistence Techniques,prefix,0.5,0,A,A C E
+M0264,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Persistence Techniques,none,0.5,0,A,B
+M0265,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Behavioral Analysis,retrieved,0.5,1,B,B
+M0265,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Behavioral Analysis,prefix,0.5,0,B,F
+M0265,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,Behavioral Analysis,none,0.5,0,B,
+M0266,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,File Operations,retrieved,0.5,0,A B C,A B
+M0266,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,File Operations,prefix,0.5,0,A B C,B C
+M0266,9e6e248d1fb56d18df4ae8b8b6f2ddd7161cf848897d3d5a26a9324c8851323d,um_unhooking,File Operations,none,0.5,0,A B C,
+M0270,3fee4a0c6c66be70f7a2c21962cdba3f0fa8ae23dfbcd0b78f6778a13e15ce0a,um_unhooking,Persistence Techniques,retrieved,0.5,0,D,
+M0270,3fee4a0c6c66be70f7a2c21962cdba3f0fa8ae23dfbcd0b78f6778a13e15ce0a,um_unhooking,Persistence Techniques,prefix,0.5,0,D,
+M0270,3fee4a0c6c66be70f7a2c21962cdba3f0fa8ae23dfbcd0b78f6778a13e15ce0a,um_unhooking,Persistence Techniques,none,0.5,0,D,
+M0275,6e0fc8d7b0d1c1cc6f3642b5874eb2075b33061ab54cd83ab6ab3da8b791effe,um_unhooking,System Interactions,retrieved,0.5,0,B F,B D
+M0275,6e0fc8d7b0d1c1cc6f3642b5874eb2075b33061ab54cd83ab6ab3da8b791effe,um_unhooking,System Interactions,prefix,0.5,0,B F,B D
+M0275,6e0fc8d7b0d1c1cc6f3642b5874eb2075b33061ab54cd83ab6ab3da8b791effe,um_unhooking,System Interactions,none,0.5,0,B F,
+M0279,6053e42962b2bcdc4ebb1865c92be864452723fd9782e6db98d7f894f7bfe189,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,E,
+M0279,6053e42962b2bcdc4ebb1865c92be864452723fd9782e6db98d7f894f7bfe189,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,E,
+M0279,6053e42962b2bcdc4ebb1865c92be864452723fd9782e6db98d7f894f7bfe189,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,E,
+M0280,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Evasion Techniques,retrieved,0.5,0,D E C,A C D F G
+M0280,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Evasion Techniques,prefix,0.5,0,D E C,A C F G
+M0280,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Evasion Techniques,none,0.5,0,D E C,
+M0281,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Risk Assessment,retrieved,0.5,0,A B C F,A C F G
+M0281,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Risk Assessment,prefix,0.5,0,A B C F,A C D F G
+M0281,e04a218e97e4d598eea4839c9119f1927ef3cddb1ca22a42d6c67c21d1babd38,ransomware,Risk Assessment,none,0.5,0,A B C F,C G
+M0282,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Behavioral Analysis,retrieved,0.5,0,E F,A B D E F
+M0282,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Behavioral Analysis,prefix,0.5,0,E F,D E G
+M0282,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Behavioral Analysis,none,0.5,0,E F,B D F G
+M0283,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Risk Assessment,retrieved,0.5,0,A E F,B E F
+M0283,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Risk Assessment,prefix,0.5,0,A E F,A C E F
+M0283,8f46b1fea15369e70b8b3919db81d2cd4d7428c75a5208aa0313a03e8b938e21,ransomware,Risk Assessment,none,0.5,0,A E F,
+M0284,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Persistence Techniques,retrieved,0.5,0,D,A B C
+M0284,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Persistence Techniques,prefix,0.5,0,D,A B C
+M0284,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Persistence Techniques,none,0.5,0,D,
+M0285,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,E F,A B C D E F
+M0285,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,E F,A B C D E F
+M0285,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,E F,
+M0286,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,File Operations,retrieved,0.5,0,A C D E F G,C D F G
+M0286,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,File Operations,prefix,0.5,0,A C D E F G,A C F G
+M0286,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,File Operations,none,0.5,0,A C D E F G,
+M0287,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Risk Assessment,retrieved,0.5,1,B C E F G,B C E F G
+M0287,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Risk Assessment,prefix,0.5,0,B C E F G,A D F G
+M0287,3facc153ed82a72695ee2718084db91f85e2560407899e1c7f6938fd4ea011e9,ransomware,Risk Assessment,none,0.5,0,B C E F G,
+M0289,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Behavioral Analysis,retrieved,0.5,0,A B D F,A B C D E F
+M0289,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Behavioral Analysis,prefix,0.5,0,A B D F,A B D E F
+M0289,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Behavioral Analysis,none,0.5,0,A B D F,
+M0290,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,System Interactions,retrieved,0.5,0,A B D,A B C D
+M0290,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,System Interactions,prefix,0.5,1,A B D,A B D
+M0290,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,System Interactions,none,0.5,0,A B D,
+M0291,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Risk Assessment,retrieved,0.5,0,B C F,B C D E F
+M0291,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Risk Assessment,prefix,0.5,0,B C F,B C D E F
+M0291,cf5ddb5dedea0104a3fc464c822e6181a9dd9fa6e27e713c54af0eafb7c5faf0,ransomware,Risk Assessment,none,0.5,0,B C F,
+M0292,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Privilege Escalation,retrieved,0.5,0,D,A B C D E F
+M0292,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Privilege Escalation,prefix,0.5,0,D,A B C D E F
+M0292,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Privilege Escalation,none,0.5,0,D,
+M0293,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Behavioral Analysis,retrieved,0.5,1,A D E F,A D E F
+M0293,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Behavioral Analysis,prefix,0.5,0,A D E F,A C D E
+M0293,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Behavioral Analysis,none,0.5,0,A D E F,D F
+M0294,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,G,
+M0294,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,G,
+M0294,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,1,G,G
+M0295,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Persistence Techniques,retrieved,0.5,0,E F,A B C E F G
+M0295,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Persistence Techniques,prefix,0.5,0,E F,A B C E F
+M0295,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Persistence Techniques,none,0.5,0,E F,
+M0296,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Risk Assessment,retrieved,0.5,0,B D,A B C F
+M0296,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Risk Assessment,prefix,0.5,0,B D,A B D
+M0296,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,Risk Assessment,none,0.5,0,B D,
+M0297,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,File Operations,retrieved,0.5,0,A B E F,A E F
+M0297,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,File Operations,prefix,0.5,0,A B E F,B C F
+M0297,c5571b0a43bbaee5653d0f9b6fc7f9c960ea665fcb868d75d8890a1a5d0e0de0,ransomware,File Operations,none,0.5,0,A B E F,
+M0298,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,Privilege Escalation,retrieved,0.5,0,D F,A B C D E G
+M0298,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,Privilege Escalation,prefix,0.5,0,D F,A B C D E F G
+M0298,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,Privilege Escalation,none,0.5,0,D F,
+M0299,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A,A B C F
+M0299,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,A B C F
+M0299,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0300,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,File Operations,retrieved,0.5,0,A B,A B D F
+M0300,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,File Operations,prefix,0.5,0,A B,B C D F
+M0300,73e843f93273c6130227a37f9351b20a6b87e6552fad38ed4bbe4e609246abdf,ransomware,File Operations,none,0.5,0,A B,
+M0301,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Privilege Escalation,retrieved,0.5,0,F,A B C D E F
+M0301,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Privilege Escalation,prefix,0.5,0,F,A B C D E F
+M0301,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Privilege Escalation,none,0.5,0,F,
+M0302,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Behavioral Analysis,retrieved,0.5,1,D E F,D E F
+M0302,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Behavioral Analysis,prefix,0.5,0,D E F,A B D F
+M0302,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Behavioral Analysis,none,0.5,0,D E F,D F
+M0303,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,retrieved,0.5,0,A F,
+M0303,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,prefix,0.5,0,A F,
+M0303,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,none,0.5,0,A F,
+M0304,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Evasion Techniques,retrieved,0.5,0,E,B D E F G
+M0304,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Evasion Techniques,prefix,0.5,0,E,B C D E F G
+M0304,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Evasion Techniques,none,0.5,0,E,
+M0305,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,retrieved,0.5,0,B D,A B D E F
+M0305,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,prefix,0.5,0,B D,A B D E F
+M0305,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,Persistence Techniques,none,0.5,0,B D,D
+M0306,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,File Operations,retrieved,0.5,0,A B,A B C D
+M0306,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,File Operations,prefix,0.5,0,A B,A C D
+M0306,a7eb1dd3300405ea3d7f8995e1f0d745cff468bf27baa37466b4a8fc543abbba,ransomware,File Operations,none,0.5,0,A B,
+M0307,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,Privilege Escalation,retrieved,0.5,0,C D,D
+M0307,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,Privilege Escalation,prefix,0.5,0,C D,D
+M0307,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,Privilege Escalation,none,0.5,0,C D,D
+M0308,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,System Interactions,retrieved,0.5,0,D,C D E
+M0308,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,System Interactions,prefix,0.5,0,D,A
+M0308,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,System Interactions,none,0.5,0,D,
+M0309,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,File Operations,retrieved,0.5,0,F,A F
+M0309,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,File Operations,prefix,0.5,0,F,A
+M0309,c4816edacf346f207e7f3fdd5f519fefd2465d21e08cad1936a1bde32d7faea0,ransomware,File Operations,none,0.5,0,F,
+M0319,9622b2eaad022298c21939a82dbf3fa814c46e90ac4f461949b21fad6d7bb6f2,ransomware,Behavioral Analysis,retrieved,0.5,0,F,
+M0319,9622b2eaad022298c21939a82dbf3fa814c46e90ac4f461949b21fad6d7bb6f2,ransomware,Behavioral Analysis,prefix,0.5,0,F,
+M0319,9622b2eaad022298c21939a82dbf3fa814c46e90ac4f461949b21fad6d7bb6f2,ransomware,Behavioral Analysis,none,0.5,0,F,
+M0320,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,retrieved,0.5,0,E,A E
+M0320,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,prefix,0.5,0,E,A B E
+M0320,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,none,0.5,0,E,
+M0321,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Privilege Escalation,retrieved,0.5,1,G,G
+M0321,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Privilege Escalation,prefix,0.5,0,G,E F
+M0321,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Privilege Escalation,none,0.5,1,G,G
+M0322,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,H,
+M0322,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,H,A
+M0322,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,H,
+M0323,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,retrieved,0.5,0,A C,A B C D E
+M0323,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,prefix,0.5,0,A C,A B C D E
+M0323,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,Persistence Techniques,none,0.5,0,A C,
+M0324,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,File Operations,retrieved,0.5,0,C D,A C D
+M0324,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,File Operations,prefix,0.5,0,C D,B E
+M0324,b4b66aa6f8f2c5f8c7a6df70b5b6dd96356199e6b00066f8d6fb54c868d45026,ransomware,File Operations,none,0.5,0,C D,
+M0325,7710d6d13f5a851b55412fd22227e4e59caa6003df31819790e6a32cea4a42cc,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A B,A B
+M0325,7710d6d13f5a851b55412fd22227e4e59caa6003df31819790e6a32cea4a42cc,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B,A
+M0325,7710d6d13f5a851b55412fd22227e4e59caa6003df31819790e6a32cea4a42cc,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,A B,B
+M0326,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Privilege Escalation,retrieved,0.5,0,D,A B C D E F
+M0326,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Privilege Escalation,prefix,0.5,0,D,A B C D E F
+M0326,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Privilege Escalation,none,0.5,0,D,
+M0327,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,retrieved,0.5,0,A C F,A C F G H
+M0327,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,prefix,0.5,0,A C F,A C D F G H
+M0327,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,none,0.5,0,A C F,
+M0328,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,retrieved,0.5,0,A B C D,A D
+M0328,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,prefix,0.5,0,A B C D,A D
+M0328,3233335bf847967e7ff2b37308a90ceb4c4465f19f113dddb17243c91f4d078f,ransomware,Persistence Techniques,none,0.5,0,A B C D,D
+M0329,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Privilege Escalation,retrieved,0.5,0,A B C D E F,A B D E F
+M0329,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Privilege Escalation,prefix,0.5,1,A B C D E F,A B C D E F
+M0329,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Privilege Escalation,none,0.5,0,A B C D E F,
+M0330,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Persistence Techniques,retrieved,0.5,0,A F,A B D E F
+M0330,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Persistence Techniques,prefix,0.5,0,A F,A B C D E F
+M0330,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,Persistence Techniques,none,0.5,0,A F,
+M0331,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,File Operations,retrieved,0.5,0,A B D F,A B F
+M0331,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,File Operations,prefix,0.5,0,A B D F,B C F
+M0331,f1966f0e7d7a119acca8ec8c835c5bc82ef9f77d216c16f23fa2d36fd7c32303,ransomware,File Operations,none,0.5,0,A B D F,
+M0332,d77378dcc42b912e514d3bd4466cdda050dda9b57799a6c97f70e8489dd8c8d0,ransomware,File Operations,retrieved,0.5,0,A C,B
+M0332,d77378dcc42b912e514d3bd4466cdda050dda9b57799a6c97f70e8489dd8c8d0,ransomware,File Operations,prefix,0.5,0,A C,A B F
+M0332,d77378dcc42b912e514d3bd4466cdda050dda9b57799a6c97f70e8489dd8c8d0,ransomware,File Operations,none,0.5,0,A C,
+M0333,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Behavioral Analysis,retrieved,0.5,1,F,F
+M0333,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Behavioral Analysis,prefix,0.5,0,F,A C F
+M0333,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Behavioral Analysis,none,0.5,0,F,
+M0334,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,System Interactions,retrieved,0.5,0,A D E F,A B D E
+M0334,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,System Interactions,prefix,0.5,0,A D E F,A D F
+M0334,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,System Interactions,none,0.5,0,A D E F,
+M0335,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Risk Assessment,retrieved,0.5,0,A F G,A B C D E F G
+M0335,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Risk Assessment,prefix,0.5,0,A F G,A B C D E F G
+M0335,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,Risk Assessment,none,0.5,0,A F G,
+M0336,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,File Operations,retrieved,0.5,1,A B D E F,A B D E F
+M0336,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,File Operations,prefix,0.5,0,A B D E F,B
+M0336,f577d4931c05b204bfb3cb8459f8e0622bd0cb64f20de4eb6ddd7aa166f60d5c,ransomware,File Operations,none,0.5,0,A B D E F,
+M0354,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,retrieved,0.5,1,B,B
+M0354,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,prefix,0.5,0,B,
+M0354,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,none,0.5,0,B,
+M0355,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Evasion Techniques,retrieved,0.5,0,F,C D E
+M0355,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Evasion Techniques,prefix,0.5,1,F,F
+M0355,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Evasion Techniques,none,0.5,0,F,D E
+M0356,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Risk Assessment,retrieved,0.5,1,A D E,A D E
+M0356,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Risk Assessment,prefix,0.5,0,A D E,A D
+M0356,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Risk Assessment,none,0.5,0,A D E,
+M0357,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,retrieved,0.5,0,B,A
+M0357,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,prefix,0.5,0,B,
+M0357,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,Behavioral Analysis,none,0.5,0,B,
+M0358,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,File Operations,retrieved,0.5,1,C D E,C D E
+M0358,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,File Operations,prefix,0.5,0,C D E,B E
+M0358,946fc3383088e6d595817379b8f710c477741421bfc1f127a511f595b4a79ca3,ransomware,File Operations,none,0.5,0,C D E,
+M0359,b838571dbc7905cacd42173f5703f2d6799a35ea6346438ef055476cff7fb3f1,ransomware,Persistence Techniques,retrieved,0.5,1,A E C,A C E
+M0359,b838571dbc7905cacd42173f5703f2d6799a35ea6346438ef055476cff7fb3f1,ransomware,Persistence Techniques,prefix,0.5,0,A E C,A C D E
+M0359,b838571dbc7905cacd42173f5703f2d6799a35ea6346438ef055476cff7fb3f1,ransomware,Persistence Techniques,none,0.5,0,A E C,E
+M0360,a92c0f7c02884571e98efbc6a28dc5e8eb168738f7c5fe1a8af2ff0a0967f448,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,B C,B C
+M0360,a92c0f7c02884571e98efbc6a28dc5e8eb168738f7c5fe1a8af2ff0a0967f448,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,B C,
+M0360,a92c0f7c02884571e98efbc6a28dc5e8eb168738f7c5fe1a8af2ff0a0967f448,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,B C,C
+M0361,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,System Interactions,retrieved,0.5,1,A D E,A D E
+M0361,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,System Interactions,prefix,0.5,0,A D E,B E
+M0361,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,System Interactions,none,0.5,0,A D E,F
+M0362,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Evasion Techniques,retrieved,0.5,0,G,A B C D F
+M0362,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Evasion Techniques,prefix,0.5,0,G,A B C D E F
+M0362,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Evasion Techniques,none,0.5,1,G,G
+M0363,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Risk Assessment,retrieved,0.5,1,D E,D E
+M0363,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Risk Assessment,prefix,0.5,0,D E,B D E
+M0363,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,Risk Assessment,none,0.5,0,D E,B
+M0364,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,File Operations,retrieved,0.5,1,A B C D,A B C D
+M0364,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,File Operations,prefix,0.5,0,A B C D,B C
+M0364,91c379a9dd3e5bb79d42675d0e101e7d4ee390384fb431d61f61c8c2868e2eb5,ransomware,File Operations,none,0.5,0,A B C D,
+M0365,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Privilege Escalation,retrieved,0.5,1,E,E
+M0365,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Privilege Escalation,prefix,0.5,1,E,E
+M0365,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Privilege Escalation,none,0.5,1,E,E
+M0366,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Behavioral Analysis,retrieved,0.5,1,A,A
+M0366,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Behavioral Analysis,prefix,0.5,1,A,A
+M0366,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,Behavioral Analysis,none,0.5,1,A,A
+M0367,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,File Operations,retrieved,0.5,0,A E,A B E
+M0367,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,File Operations,prefix,0.5,0,A E,A
+M0367,3a7d45102776702bd32c65e34071db9403ea1a482c42f7a1a919c5ab6baf096b,ransomware,File Operations,none,0.5,0,A E,
+M0375,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,retrieved,0.5,0,A B,A B D E
+M0375,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,prefix,0.5,1,A B,A B
+M0375,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,none,0.5,0,A B,
+M0376,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Privilege Escalation,retrieved,0.5,0,G,A B C D E
+M0376,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Privilege Escalation,prefix,0.5,0,G,A B C D E F
+M0376,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Privilege Escalation,none,0.5,1,G,G
+M0377,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Behavioral Analysis,retrieved,0.5,1,D E,D E
+M0377,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Behavioral Analysis,prefix,0.5,0,D E,C D
+M0377,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Behavioral Analysis,none,0.5,0,D E,
+M0378,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,retrieved,0.5,0,A B C,A B C E
+M0378,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,prefix,0.5,0,A B C,A B C E
+M0378,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,System Interactions,none,0.5,0,A B C,D
+M0379,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Persistence Techniques,retrieved,0.5,0,A D,A B D E F
+M0379,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Persistence Techniques,prefix,0.5,0,A D,A B D E F
+M0379,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Persistence Techniques,none,0.5,0,A D,D
+M0380,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Risk Assessment,retrieved,0.5,1,A B D,A B D
+M0380,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Risk Assessment,prefix,0.5,1,A B D,A B D
+M0380,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,Risk Assessment,none,0.5,0,A B D,E
+M0381,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,File Operations,retrieved,0.5,1,A B E F,A B E F
+M0381,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,File Operations,prefix,0.5,0,A B E F,A B C D F
+M0381,6f6f0c8738159f59ea033d8d237433be7163ad062737e1eb4071ec9c0ae88511,ransomware,File Operations,none,0.5,0,A B E F,
+M0382,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,System Interactions,retrieved,0.5,0,A B F,A F
+M0382,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,System Interactions,prefix,0.5,0,A B F,A B C
+M0382,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,System Interactions,none,0.5,0,A B F,
+M0383,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Privilege Escalation,retrieved,0.5,0,G,A B C D E F
+M0383,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Privilege Escalation,prefix,0.5,0,G,A B C D E F
+M0383,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Privilege Escalation,none,0.5,1,G,G
+M0384,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Behavioral Analysis,retrieved,0.5,1,A B,A B
+M0384,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Behavioral Analysis,prefix,0.5,0,A B,A E F
+M0384,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Behavioral Analysis,none,0.5,0,A B,
+M0385,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,G,G
+M0385,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,1,G,G
+M0385,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,G,
+M0386,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Evasion Techniques,retrieved,0.5,0,B F,A B C D E F
+M0386,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Evasion Techniques,prefix,0.5,0,B F,A B C D E
+M0386,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Evasion Techniques,none,0.5,0,B F,
+M0387,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Persistence Techniques,retrieved,0.5,0,F,C
+M0387,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Persistence Techniques,prefix,0.5,0,F,C
+M0387,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,Persistence Techniques,none,0.5,0,F,
+M0388,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,File Operations,retrieved,0.5,0,G,A B C F
+M0388,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,File Operations,prefix,0.5,0,G,A B C
+M0388,cc63f36dc17a0a98aa80e296f467cda6a1e0771e8d1b224efe524b532e7bc3dc,ransomware,File Operations,none,0.5,1,G,G
+M0389,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Privilege Escalation,retrieved,0.5,0,A B C D E F,A B C D E
+M0389,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Privilege Escalation,prefix,0.5,1,A B C D E F,A B C D E F
+M0389,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Privilege Escalation,none,0.5,0,A B C D E F,
+M0390,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Evasion Techniques,retrieved,0.5,0,B C D E,A B C E F
+M0390,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Evasion Techniques,prefix,0.5,0,B C D E,A B C D E F
+M0390,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Evasion Techniques,none,0.5,0,B C D E,
+M0391,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,System Interactions,retrieved,0.5,0,A B C,B C
+M0391,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,System Interactions,prefix,0.5,1,A B C,A B C
+M0391,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,System Interactions,none,0.5,0,A B C,
+M0392,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A,
+M0392,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0392,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0393,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Persistence Techniques,retrieved,0.5,1,A,A
+M0393,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Persistence Techniques,prefix,0.5,0,A,A B C D
+M0393,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Persistence Techniques,none,0.5,0,A,E
+M0394,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Risk Assessment,retrieved,0.5,0,A D E F,D E F
+M0394,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Risk Assessment,prefix,0.5,0,A D E F,A E F
+M0394,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,Risk Assessment,none,0.5,0,A D E F,
+M0395,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,File Operations,retrieved,0.5,0,A B,A B E
+M0395,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,File Operations,prefix,0.5,0,A B,B C D E
+M0395,a6195fe3e14ee149621d0645788c516bd2bf2b25d1ed59b5c2a2a504da863ea5,ransomware,File Operations,none,0.5,0,A B,
+M0396,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,System Interactions,retrieved,0.5,0,A,A D F
+M0396,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,System Interactions,prefix,0.5,0,A,A D F
+M0396,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,System Interactions,none,0.5,0,A,
+M0397,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C,A
+M0397,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C,
+M0397,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C,
+M0398,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,Persistence Techniques,retrieved,0.5,0,A E,A B D E F
+M0398,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,Persistence Techniques,prefix,0.5,0,A E,A B D E F
+M0398,559a8644fd0335023f86b8349aeb35adbb2b96200710a39f34c3b4da61b200f0,ransomware,Persistence Techniques,none,0.5,0,A E,
+M0399,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Privilege Escalation,retrieved,0.5,0,A B D,A
+M0399,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Privilege Escalation,prefix,0.5,0,A B D,A
+M0399,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Privilege Escalation,none,0.5,0,A B D,A
+M0400,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,System Interactions,retrieved,0.5,0,I,A D F I
+M0400,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,System Interactions,prefix,0.5,0,I,A E F
+M0400,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,System Interactions,none,0.5,0,I,
+M0401,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B,A
+M0401,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B,
+M0401,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,MITRE ATT&CK Framework Mapping,none,0.5,0,A B,A
+M0402,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Evasion Techniques,retrieved,0.5,0,A B C E,A B C D E
+M0402,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Evasion Techniques,prefix,0.5,0,A B C E,A C D E
+M0402,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Evasion Techniques,none,0.5,0,A B C E,
+M0403,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Persistence Techniques,retrieved,0.5,0,A,A B C D E
+M0403,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Persistence Techniques,prefix,0.5,0,A,A B C D E F
+M0403,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Persistence Techniques,none,0.5,0,A,
+M0404,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Risk Assessment,retrieved,0.5,0,I,B C G H I
+M0404,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Risk Assessment,prefix,0.5,0,I,A B H
+M0404,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,Risk Assessment,none,0.5,0,I,
+M0405,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,File Operations,retrieved,0.5,1,A B C D,A B C D
+M0405,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,File Operations,prefix,0.5,0,A B C D,
+M0405,f0dc37bda70caa023d17f3858612d5fa922aeb27b3f151ea5ebcf83045fa52b2,ransomware,File Operations,none,0.5,0,A B C D,
+M0408,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,File Operations,retrieved,0.5,0,A,
+M0408,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,File Operations,prefix,0.5,0,A,
+M0408,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,File Operations,none,0.5,0,A,
+M0409,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A C,
+M0409,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A C,
+M0409,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,A C,
+M0410,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,Evasion Techniques,retrieved,0.5,1,A,A
+M0410,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,Evasion Techniques,prefix,0.5,0,A,B C E
+M0410,0b84aeb616ebd3b443326c397a9b3841124298b9a87ce91cd802d84fc6826a16,killers,Evasion Techniques,none,0.5,0,A,
+M0411,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Evasion Techniques,retrieved,0.5,0,A B E,A E
+M0411,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Evasion Techniques,prefix,0.5,0,A B E,A C
+M0411,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Evasion Techniques,none,0.5,0,A B E,
+M0412,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Risk Assessment,retrieved,0.5,1,F,F
+M0412,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Risk Assessment,prefix,0.5,0,F,B D
+M0412,8a0db8d6a2a702b17db8b60afc8f2d4fc00d8908506e0ba4ed35293d7d53010d,killers,Risk Assessment,none,0.5,0,F,
+M0413,04e480ffb5cd0e92001a1a1aeae06fdbff4113b732b007287331953fd6953526,killers,Persistence Techniques,retrieved,0.5,0,E C,A B C D E
+M0413,04e480ffb5cd0e92001a1a1aeae06fdbff4113b732b007287331953fd6953526,killers,Persistence Techniques,prefix,0.5,0,E C,C E F
+M0413,04e480ffb5cd0e92001a1a1aeae06fdbff4113b732b007287331953fd6953526,killers,Persistence Techniques,none,0.5,0,E C,
+M0414,0829607730ba267f8a2f7647e7a4cb8bf2f8b2e245792bab145c43376adafbe1,killers,Behavioral Analysis,retrieved,0.5,0,G,B C D E F G
+M0414,0829607730ba267f8a2f7647e7a4cb8bf2f8b2e245792bab145c43376adafbe1,killers,Behavioral Analysis,prefix,0.5,0,G,C F
+M0414,0829607730ba267f8a2f7647e7a4cb8bf2f8b2e245792bab145c43376adafbe1,killers,Behavioral Analysis,none,0.5,0,G,
+M0415,0cf00ab454e42aa2c448943e2253397c226f12b889985775b3dbe04578c87178,killers,Behavioral Analysis,retrieved,0.5,1,A B C D E F G,A B C D E F G
+M0415,0cf00ab454e42aa2c448943e2253397c226f12b889985775b3dbe04578c87178,killers,Behavioral Analysis,prefix,0.5,0,A B C D E F G,F G
+M0415,0cf00ab454e42aa2c448943e2253397c226f12b889985775b3dbe04578c87178,killers,Behavioral Analysis,none,0.5,0,A B C D E F G,B C D E
+M0417,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,System Interactions,retrieved,0.5,0,A,A C
+M0417,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,System Interactions,prefix,0.5,0,A,A B C
+M0417,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,System Interactions,none,0.5,0,A,
+M0418,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,Risk Assessment,retrieved,0.5,0,B C,A B C E F H
+M0418,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,Risk Assessment,prefix,0.5,0,B C,A B C E F H
+M0418,234fdea3ae1f20f2fd031b204511b9eb676b781b04b2a494a34da9c380d92f8c,killers,Risk Assessment,none,0.5,0,B C,
+M0419,c14b685409ba77161297904148ff44448f4d4cf2fa8ae116146b098141c4dad4,killers,Behavioral Analysis,retrieved,0.5,0,I,D F G H
+M0419,c14b685409ba77161297904148ff44448f4d4cf2fa8ae116146b098141c4dad4,killers,Behavioral Analysis,prefix,0.5,0,I,B I
+M0419,c14b685409ba77161297904148ff44448f4d4cf2fa8ae116146b098141c4dad4,killers,Behavioral Analysis,none,0.5,0,I,B I
+M0420,05c8995dda08e933194b83809cc6f0aa59d957d2c7d55d94ea71ae26f00ce6e1,killers,File Operations,retrieved,0.5,0,A B D E,A C
+M0420,05c8995dda08e933194b83809cc6f0aa59d957d2c7d55d94ea71ae26f00ce6e1,killers,File Operations,prefix,0.5,0,A B D E,A D
+M0420,05c8995dda08e933194b83809cc6f0aa59d957d2c7d55d94ea71ae26f00ce6e1,killers,File Operations,none,0.5,0,A B D E,
+M0421,cc1075b4676f6215df1717b174353765e1a898f6075dd307b4ea9aa929e62033,killers,Behavioral Analysis,retrieved,0.5,1,A,A
+M0421,cc1075b4676f6215df1717b174353765e1a898f6075dd307b4ea9aa929e62033,killers,Behavioral Analysis,prefix,0.5,0,A,
+M0421,cc1075b4676f6215df1717b174353765e1a898f6075dd307b4ea9aa929e62033,killers,Behavioral Analysis,none,0.5,1,A,A
+M0422,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,System Interactions,retrieved,0.5,0,F,A D E
+M0422,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,System Interactions,prefix,0.5,0,F,A D E
+M0422,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,System Interactions,none,0.5,0,F,
+M0423,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,Behavioral Analysis,retrieved,0.5,0,A B E F,A B F
+M0423,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,Behavioral Analysis,prefix,0.5,0,A B E F,A B F
+M0423,85791eded0ca8c40e8923c03b952011e916fd1fdd117c28d9dc98da7f9c54e49,killers,Behavioral Analysis,none,0.5,0,A B E F,
+M0424,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,System Interactions,retrieved,0.5,0,,B C D E F
+M0424,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,System Interactions,prefix,0.5,1,,
+M0424,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,System Interactions,none,0.5,1,,
+M0425,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,Behavioral Analysis,retrieved,0.5,0,C E,D
+M0425,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,Behavioral Analysis,prefix,0.5,0,C E,
+M0425,80cf07a54232788852b8f475498fcc1f176e8b4a1a5de92fe99dd0dbcf4f9434,killers,Behavioral Analysis,none,0.5,0,C E,
+M0427,85310459893043ce3ec9b097505814231813953b6fa0dd66b43e1ded5bda92f7,killers,Risk Assessment,retrieved,0.5,0,D E B A,B C D E F
+M0427,85310459893043ce3ec9b097505814231813953b6fa0dd66b43e1ded5bda92f7,killers,Risk Assessment,prefix,0.5,0,D E B A,
+M0427,85310459893043ce3ec9b097505814231813953b6fa0dd66b43e1ded5bda92f7,killers,Risk Assessment,none,0.5,0,D E B A,
+M0428,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Evasion Techniques,retrieved,0.5,0,C D E F,A C D E F
+M0428,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Evasion Techniques,prefix,0.5,0,C D E F,A C D E F
+M0428,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Evasion Techniques,none,0.5,0,C D E F,
+M0429,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Risk Assessment,retrieved,0.5,0,A B D,A E
+M0429,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Risk Assessment,prefix,0.5,0,A B D,A C D F
+M0429,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Risk Assessment,none,0.5,0,A B D,
+M0430,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Persistence Techniques,retrieved,0.5,0,F,A
+M0430,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Persistence Techniques,prefix,0.5,0,F,A
+M0430,2491baef6289ac1a0236bfa33af716a818e9d5efce30d5863dd1bae6b60c7f97,killers,Persistence Techniques,none,0.5,0,F,
+M0431,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,Persistence Techniques,retrieved,0.5,0,A C,A B C D E
+M0431,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,Persistence Techniques,prefix,0.5,1,A C,A C
+M0431,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,Persistence Techniques,none,0.5,0,A C,C
+M0432,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,File Operations,retrieved,0.5,0,A B D E,A C
+M0432,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,File Operations,prefix,0.5,0,A B D E,A D
+M0432,019179afe76c122e3fa55ec27b73f6c56d923557814f2af0cb0e1c3db41f74f6,killers,File Operations,none,0.5,0,A B D E,A
+M0433,53f9ee68f24902418c65d8f99d2ab9464232406db5acbb2e74268de552ef6199,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A D,A C
+M0433,53f9ee68f24902418c65d8f99d2ab9464232406db5acbb2e74268de552ef6199,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A D,A
+M0433,53f9ee68f24902418c65d8f99d2ab9464232406db5acbb2e74268de552ef6199,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,A D,A
+M0434,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,File Operations,retrieved,0.5,0,A C,A
+M0434,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,File Operations,prefix,0.5,0,A C,A B
+M0434,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,File Operations,none,0.5,0,A C,
+M0435,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,retrieved,0.5,0,G,D E F G
+M0435,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,prefix,0.5,0,G,B C D E
+M0435,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,none,0.5,0,G,
+M0436,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,retrieved,0.5,0,A D E,A C D E
+M0436,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,prefix,0.5,0,A D E,B C D E
+M0436,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Behavioral Analysis,none,0.5,0,A D E,C D E
+M0437,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Privilege Escalation,retrieved,0.5,0,D,A B C D
+M0437,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Privilege Escalation,prefix,0.5,0,D,A C D
+M0437,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Privilege Escalation,none,0.5,0,D,C
+M0438,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,C,
+M0438,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,C,
+M0438,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,C,
+M0439,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Evasion Techniques,retrieved,0.5,0,F,A B C D E
+M0439,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Evasion Techniques,prefix,0.5,0,F,A B C D E
+M0439,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Evasion Techniques,none,0.5,0,F,
+M0440,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Risk Assessment,retrieved,0.5,0,A,A B C
+M0440,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Risk Assessment,prefix,0.5,0,A,A B C
+M0440,0ef46f3686f60e1b6801fb27d2cb316597f31b59d79fd77e8685c1999b5f32bc,killers,Risk Assessment,none,0.5,0,A,
+M0441,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,System Interactions,retrieved,0.5,1,A B D E,A B D E
+M0441,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,System Interactions,prefix,0.5,0,A B D E,B D E
+M0441,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,System Interactions,none,0.5,0,A B D E,
+M0442,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,Risk Assessment,retrieved,0.5,0,A C,A
+M0442,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,Risk Assessment,prefix,0.5,0,A C,E
+M0442,946b376a771cf97e6aa7e88de9157cf4794255c614bd946e2b53ae5b6c731d96,killers,Risk Assessment,none,0.5,0,A C,
+M0449,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,Behavioral Analysis,retrieved,0.5,0,G,B F G
+M0449,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,Behavioral Analysis,prefix,0.5,0,G,B F G
+M0449,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,Behavioral Analysis,none,0.5,0,G,
+M0450,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,System Interactions,retrieved,0.5,0,A C,A B
+M0450,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,System Interactions,prefix,0.5,0,A C,A B C
+M0450,82844ba2a4fa3776b20f0c6a34a75e7fd39a579fc37e714e5a669483f723a214,killers,System Interactions,none,0.5,0,A C,A
+M0451,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,Privilege Escalation,retrieved,0.5,0,C E,A C E
+M0451,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,Privilege Escalation,prefix,0.5,0,C E,A B C D E F
+M0451,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,Privilege Escalation,none,0.5,0,C E,
+M0452,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,System Interactions,retrieved,0.5,1,B C F E,B C E F
+M0452,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,System Interactions,prefix,0.5,0,B C F E,A B E
+M0452,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,System Interactions,none,0.5,0,B C F E,
+M0453,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C D,D
+M0453,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C D,D
+M0453,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C D,D
+M0454,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,File Operations,retrieved,0.5,1,A D E,A D E
+M0454,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,File Operations,prefix,0.5,0,A D E,B C
+M0454,0844a7218502246830af66afbb13795b1e35f5dffd756a9ceed8b526e71fe927,killers,File Operations,none,0.5,0,A D E,F
+M0455,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Privilege Escalation,retrieved,0.5,1,A,A
+M0455,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Privilege Escalation,prefix,0.5,1,A,A
+M0455,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Privilege Escalation,none,0.5,1,A,A
+M0456,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,System Interactions,retrieved,0.5,0,A B C,A B C E
+M0456,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,System Interactions,prefix,0.5,0,A B C,B C E
+M0456,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,System Interactions,none,0.5,0,A B C,
+M0457,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A E F,A E F
+M0457,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A E F,B
+M0457,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,A E F,
+M0458,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Evasion Techniques,retrieved,0.5,1,A B C D,A B C D
+M0458,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Evasion Techniques,prefix,0.5,1,A B C D,A B C D
+M0458,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Evasion Techniques,none,0.5,1,A B C D,A B C D
+M0459,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Risk Assessment,retrieved,0.5,0,B D,D
+M0459,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Risk Assessment,prefix,0.5,0,B D,B C
+M0459,7001c67bef47068236ee34ddf0520175ef6213277034cb0af321a393295bfe9b,killers,Risk Assessment,none,0.5,0,B D,B
+M0460,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,retrieved,0.5,0,A B E F,A B D E F
+M0460,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,prefix,0.5,1,A B E F,A B E F
+M0460,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,none,0.5,0,A B E F,
+M0461,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,retrieved,0.5,0,B C,A B C E
+M0461,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,prefix,0.5,0,B C,A E
+M0461,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,System Interactions,none,0.5,0,B C,
+M0462,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A C D,A B C D
+M0462,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A C D,A B D
+M0462,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,A C D,A B
+M0463,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,Evasion Techniques,retrieved,0.5,0,D E F,A B C D E F
+M0463,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,Evasion Techniques,prefix,0.5,0,D E F,A B C D E F
+M0463,0ef6035d43e3634119da28fcee41653d5f7b1872f36b4d2c8d6737e2e2cd4e1e,killers,Evasion Techniques,none,0.5,0,D E F,E
+M0464,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Behavioral Analysis,retrieved,0.5,1,A,A
+M0464,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Behavioral Analysis,prefix,0.5,0,A,
+M0464,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Behavioral Analysis,none,0.5,0,A,
+M0465,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,System Interactions,retrieved,0.5,0,B A E,B E
+M0465,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,System Interactions,prefix,0.5,0,B A E,E
+M0465,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,System Interactions,none,0.5,0,B A E,
+M0466,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Evasion Techniques,retrieved,0.5,0,B C D E F,A B C D F
+M0466,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Evasion Techniques,prefix,0.5,0,B C D E F,
+M0466,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Evasion Techniques,none,0.5,0,B C D E F,F
+M0467,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Persistence Techniques,retrieved,0.5,1,B A C,A B C
+M0467,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Persistence Techniques,prefix,0.5,0,B A C,B C D E
+M0467,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Persistence Techniques,none,0.5,0,B A C,
+M0468,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Risk Assessment,retrieved,0.5,0,E D H,A C D E F G H
+M0468,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Risk Assessment,prefix,0.5,0,E D H,C D E G
+M0468,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,Risk Assessment,none,0.5,0,E D H,
+M0469,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,File Operations,retrieved,0.5,0,A,A C D
+M0469,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,File Operations,prefix,0.5,0,A,D
+M0469,29c57dbee1bb2abb438364a7382082018120eed8212e66a5fa6dc67a2e2d8ae3,killers,File Operations,none,0.5,0,A,
+M0470,765b59faeb593249379572fbce8657ff6b4bd19e3844f601b1c3f1e79fe03b38,killers,System Interactions,retrieved,0.5,0,B D E,D E
+M0470,765b59faeb593249379572fbce8657ff6b4bd19e3844f601b1c3f1e79fe03b38,killers,System Interactions,prefix,0.5,1,B D E,B D E
+M0470,765b59faeb593249379572fbce8657ff6b4bd19e3844f601b1c3f1e79fe03b38,killers,System Interactions,none,0.5,0,B D E,
+M0472,506352ac93ecf5253042c78a765cda824412c739db7cc7f5bf78a47ba77c4c47,killers,System Interactions,retrieved,0.5,0,B D,A B D
+M0472,506352ac93ecf5253042c78a765cda824412c739db7cc7f5bf78a47ba77c4c47,killers,System Interactions,prefix,0.5,1,B D,B D
+M0472,506352ac93ecf5253042c78a765cda824412c739db7cc7f5bf78a47ba77c4c47,killers,System Interactions,none,0.5,0,B D,
+M0473,50a62c91d8666e2ff94f9755556239a7ae848814c408fa5e82d4a58ccc581e43,killers,Behavioral Analysis,retrieved,0.5,0,D,
+M0473,50a62c91d8666e2ff94f9755556239a7ae848814c408fa5e82d4a58ccc581e43,killers,Behavioral Analysis,prefix,0.5,0,D,
+M0473,50a62c91d8666e2ff94f9755556239a7ae848814c408fa5e82d4a58ccc581e43,killers,Behavioral Analysis,none,0.5,0,D,A
+M0474,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Privilege Escalation,retrieved,0.5,1,A,A
+M0474,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Privilege Escalation,prefix,0.5,0,A,
+M0474,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Privilege Escalation,none,0.5,0,A,
+M0475,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Behavioral Analysis,retrieved,0.5,1,A B C,A B C
+M0475,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Behavioral Analysis,prefix,0.5,0,A B C,C
+M0475,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Behavioral Analysis,none,0.5,0,A B C,C
+M0476,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,System Interactions,retrieved,0.5,0,A B,B C D E
+M0476,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,System Interactions,prefix,0.5,0,A B,A B C E
+M0476,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,System Interactions,none,0.5,0,A B,
+M0477,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Evasion Techniques,retrieved,0.5,0,A B C D E F,A
+M0477,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Evasion Techniques,prefix,0.5,0,A B C D E F,
+M0477,f489e33d812f81d343ba0fc6837db386d06f3d7afd3b42c6136da690e466548c,killers,Evasion Techniques,none,0.5,0,A B C D E F,F
+M0478,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,Privilege Escalation,retrieved,0.5,0,D,A B C D E F
+M0478,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,Privilege Escalation,prefix,0.5,0,D,A B C D E F
+M0478,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,Privilege Escalation,none,0.5,0,D,
+M0479,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,G,G
+M0479,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,MITRE ATT&CK Framework Mapping,prefix,0.5,0,G,B G
+M0479,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,MITRE ATT&CK Framework Mapping,none,0.5,0,G,B G
+M0480,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,File Operations,retrieved,0.5,1,B C,B C
+M0480,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,File Operations,prefix,0.5,0,B C,B C D
+M0480,625b374340b41ef873cd09b09719bd85d778d15c530e4e87c60f52ea5879b895,killers,File Operations,none,0.5,0,B C,
+M0493,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Evasion Techniques,retrieved,0.5,0,E,A C D E F
+M0493,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Evasion Techniques,prefix,0.5,0,E,A C D E F
+M0493,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Evasion Techniques,none,0.5,0,E,
+M0494,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Behavioral Analysis,retrieved,0.5,0,C E,B C D E F
+M0494,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Behavioral Analysis,prefix,0.5,0,C E,B C D E F
+M0494,f1963f22ff5e0275ad5e3f5ec43472dd7c05b3d1b65851d64c6f4aaf1d85e436,killers,Behavioral Analysis,none,0.5,0,C E,
+M0495,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,retrieved,0.5,0,A C D,C D
+M0495,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,prefix,0.5,0,A C D,B
+M0495,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,none,0.5,0,A C D,
+M0496,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Privilege Escalation,retrieved,0.5,0,G,C D E
+M0496,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Privilege Escalation,prefix,0.5,0,G,C E
+M0496,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Privilege Escalation,none,0.5,0,G,C
+M0497,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,retrieved,0.5,0,F C,B C E F
+M0497,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,prefix,0.5,0,F C,A B C D E F
+M0497,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,System Interactions,none,0.5,0,F C,
+M0498,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,H,H
+M0498,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,1,H,H
+M0498,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,MITRE ATT&CK Framework Mapping,none,0.5,1,H,H
+M0499,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Persistence Techniques,retrieved,0.5,0,G,A B C D E F
+M0499,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Persistence Techniques,prefix,0.5,0,G,A B C D E F
+M0499,1ef1da97a3fae7e228e8b74aea5b37ad948bcad3054e24b4125782ecb3c82ce8,remcos,Persistence Techniques,none,0.5,1,G,G
+M0500,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,retrieved,0.5,0,D,A B D E
+M0500,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,prefix,0.5,0,D,A D
+M0500,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,none,0.5,0,D,
+M0501,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,retrieved,0.5,0,A B D,A D
+M0501,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,prefix,0.5,0,A B D,A D
+M0501,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,none,0.5,0,A B D,F
+M0502,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,retrieved,0.5,0,A B C D E,A C D E
+M0502,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,prefix,0.5,0,A B C D E,B C E
+M0502,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,none,0.5,0,A B C D E,
+M0503,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Persistence Techniques,retrieved,0.5,0,B,A B C
+M0503,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Persistence Techniques,prefix,0.5,0,B,A B C
+M0503,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Persistence Techniques,none,0.5,0,B,E
+M0504,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,retrieved,0.5,1,A B C D E,A B C D E
+M0504,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,prefix,0.5,0,A B C D E,A D
+M0504,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Behavioral Analysis,none,0.5,0,A B C D E,A D E
+M0505,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,File Operations,retrieved,0.5,1,A C,A C
+M0505,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,File Operations,prefix,0.5,0,A C,A
+M0505,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,File Operations,none,0.5,0,A C,
+M0506,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,retrieved,0.5,0,A C,A
+M0506,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,prefix,0.5,0,A C,A
+M0506,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,System Interactions,none,0.5,0,A C,A
+M0507,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Evasion Techniques,retrieved,0.5,0,A B G,A B C D E F
+M0507,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Evasion Techniques,prefix,0.5,0,A B G,A D G
+M0507,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Evasion Techniques,none,0.5,0,A B G,
+M0508,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Risk Assessment,retrieved,0.5,0,A B C E F,A B E F
+M0508,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Risk Assessment,prefix,0.5,0,A B C E F,B C E
+M0508,53567cc7f7c6d7d1538b06ce9bc2d61b262c5fe0b491afcbb68b042e4ecb1128,remcos,Risk Assessment,none,0.5,0,A B C E F,
+M0509,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Behavioral Analysis,retrieved,0.5,1,B,B
+M0509,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Behavioral Analysis,prefix,0.5,1,B,B
+M0509,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Behavioral Analysis,none,0.5,0,B,
+M0510,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,System Interactions,retrieved,0.5,1,A B C D,A B C D
+M0510,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,System Interactions,prefix,0.5,1,A B C D,A B C D
+M0510,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,System Interactions,none,0.5,0,A B C D,
+M0511,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Persistence Techniques,retrieved,0.5,0,A,A B C D E F G
+M0511,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Persistence Techniques,prefix,0.5,0,A,A B C D E F G
+M0511,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,Persistence Techniques,none,0.5,0,A,
+M0512,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,File Operations,retrieved,0.5,0,A D F,A D F G
+M0512,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,File Operations,prefix,0.5,0,A D F,A F G
+M0512,02b4e1709e79653e9569bf727301f92d4928726ba69d8d764db5841b94d63671,remcos,File Operations,none,0.5,0,A D F,
+M0517,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,retrieved,0.5,0,A B D,A B
+M0517,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,prefix,0.5,0,A B D,A B
+M0517,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,none,0.5,0,A B D,
+M0518,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,retrieved,0.5,0,A B,A
+M0518,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,prefix,0.5,0,A B,
+M0518,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,none,0.5,0,A B,
+M0519,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,retrieved,0.5,1,A B C D,A B C D
+M0519,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,prefix,0.5,1,A B C D,A B C D
+M0519,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,none,0.5,0,A B C D,
+M0520,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,System Interactions,retrieved,0.5,0,A D,C
+M0520,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,System Interactions,prefix,0.5,0,A D,A C
+M0520,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,System Interactions,none,0.5,0,A D,
+M0521,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,retrieved,0.5,1,B,B
+M0521,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,prefix,0.5,1,B,B
+M0521,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Behavioral Analysis,none,0.5,0,B,
+M0522,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Evasion Techniques,retrieved,0.5,0,A C D,A B C D E
+M0522,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Evasion Techniques,prefix,0.5,0,A C D,A C D E
+M0522,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Evasion Techniques,none,0.5,0,A C D,
+M0523,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,retrieved,0.5,0,B,C
+M0523,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,prefix,0.5,0,B,A
+M0523,02968e873dd1ae2851fdf893a4dd3c745e93b3ed9bd716e02b65316c8f148ec4,remcos,Risk Assessment,none,0.5,0,B,
+M0524,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,System Interactions,retrieved,0.5,1,A B C D E,A B C D E
+M0524,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,System Interactions,prefix,0.5,0,A B C D E,A C
+M0524,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,System Interactions,none,0.5,0,A B C D E,
+M0525,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Evasion Techniques,retrieved,0.5,1,B C D,B C D
+M0525,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Evasion Techniques,prefix,0.5,1,B C D,B C D
+M0525,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Evasion Techniques,none,0.5,1,B C D,B C D
+M0526,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,retrieved,0.5,0,A,A B C D E F
+M0526,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,prefix,0.5,0,A,A B C D E F
+M0526,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,none,0.5,0,A,
+M0527,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,retrieved,0.5,1,A E,A E
+M0527,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,prefix,0.5,1,A E,A E
+M0527,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Persistence Techniques,none,0.5,0,A E,A
+M0528,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Risk Assessment,retrieved,0.5,0,B,A B
+M0528,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Risk Assessment,prefix,0.5,1,B,B
+M0528,dd3706144ba3f88dd1606e7d06e6b0ecc4b848108a5eb6c5612b8912da3bc6c2,remcos,Risk Assessment,none,0.5,0,B,A B C
+M0535,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,retrieved,0.5,0,E,D E
+M0535,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,prefix,0.5,0,E,A D
+M0535,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,none,0.5,0,E,
+M0536,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Privilege Escalation,retrieved,0.5,1,A,A
+M0536,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Privilege Escalation,prefix,0.5,0,A,
+M0536,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Privilege Escalation,none,0.5,0,A,
+M0537,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Behavioral Analysis,retrieved,0.5,0,G,E F G
+M0537,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Behavioral Analysis,prefix,0.5,0,G,A B D G
+M0537,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Behavioral Analysis,none,0.5,0,G,F
+M0538,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,System Interactions,retrieved,0.5,1,A,A
+M0538,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,System Interactions,prefix,0.5,1,A,A
+M0538,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,System Interactions,none,0.5,0,A,
+M0539,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A,A
+M0539,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0539,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0540,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Evasion Techniques,retrieved,0.5,0,C,A B C D E F
+M0540,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Evasion Techniques,prefix,0.5,0,C,D
+M0540,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Evasion Techniques,none,0.5,0,C,
+M0541,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,retrieved,0.5,0,A,A B C D E F
+M0541,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,prefix,0.5,0,A,A B D F
+M0541,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Persistence Techniques,none,0.5,0,A,
+M0542,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Risk Assessment,retrieved,0.5,0,C E F,E F
+M0542,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Risk Assessment,prefix,0.5,0,C E F,C D E
+M0542,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,Risk Assessment,none,0.5,0,C E F,
+M0543,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,File Operations,retrieved,0.5,0,A E F,B E F
+M0543,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,File Operations,prefix,0.5,1,A E F,A E F
+M0543,006052bdcfc75e636564cc92e96237e7331a9c147f1775a3f00e681f78956a03,remcos,File Operations,none,0.5,0,A E F,
+M0544,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,System Interactions,retrieved,0.5,1,A B C D E,A B C D E
+M0544,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,System Interactions,prefix,0.5,0,A B C D E,B
+M0544,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,System Interactions,none,0.5,0,A B C D E,
+M0545,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,Persistence Techniques,retrieved,0.5,0,E,A B C D E F
+M0545,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,Persistence Techniques,prefix,0.5,0,E,A B C D E F
+M0545,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,Persistence Techniques,none,0.5,0,E,F
+M0546,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,File Operations,retrieved,0.5,0,A F,A B F
+M0546,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,File Operations,prefix,0.5,0,A F,A C F
+M0546,24a4ebf1de71f332f38de69baf2da3019a87d45129411ad4f7d3ea48f506119d,remcos,File Operations,none,0.5,0,A F,
+M0547,8412251bb4b9b18dfc4bfb854167b48e2d968942c467a7bf09ae5a66651b8ef0,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,B D F,B
+M0547,8412251bb4b9b18dfc4bfb854167b48e2d968942c467a7bf09ae5a66651b8ef0,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,B D F,
+M0547,8412251bb4b9b18dfc4bfb854167b48e2d968942c467a7bf09ae5a66651b8ef0,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,B D F,
+M0550,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Evasion Techniques,retrieved,0.5,1,A F,A F
+M0550,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Evasion Techniques,prefix,0.5,1,A F,A F
+M0550,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Evasion Techniques,none,0.5,0,A F,A B C
+M0551,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Risk Assessment,retrieved,0.5,0,A B D,B D
+M0551,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Risk Assessment,prefix,0.5,1,A B D,A B D
+M0551,31a16cb67f5fc864f4fcb1b945a09e7eaa1a57f5005c77b9e64146fc40716246,remcos,Risk Assessment,none,0.5,0,A B D,B D
+M0552,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Privilege Escalation,retrieved,0.5,0,F,
+M0552,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Privilege Escalation,prefix,0.5,0,F,D
+M0552,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Privilege Escalation,none,0.5,0,F,
+M0553,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Behavioral Analysis,retrieved,0.5,1,A,A
+M0553,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Behavioral Analysis,prefix,0.5,0,A,
+M0553,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Behavioral Analysis,none,0.5,0,A,
+M0554,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Persistence Techniques,retrieved,0.5,0,B,A B C E
+M0554,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Persistence Techniques,prefix,0.5,0,B,A B C D E
+M0554,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Persistence Techniques,none,0.5,0,B,
+M0555,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Risk Assessment,retrieved,0.5,0,C,A C
+M0555,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Risk Assessment,prefix,0.5,0,C,A C
+M0555,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,Risk Assessment,none,0.5,0,C,
+M0556,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,File Operations,retrieved,0.5,1,A F,A F
+M0556,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,File Operations,prefix,0.5,0,A F,A C
+M0556,b682969aa8fd146fc6d9e1c7f21fc0243c5fc2197103d117bb087ca6cbcb7b55,remcos,File Operations,none,0.5,0,A F,
+M0557,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Privilege Escalation,retrieved,0.5,0,F G,
+M0557,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Privilege Escalation,prefix,0.5,0,F G,
+M0557,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Privilege Escalation,none,0.5,0,F G,
+M0558,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,retrieved,0.5,1,A B F,A B F
+M0558,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,prefix,0.5,0,A B F,A F
+M0558,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,none,0.5,0,A B F,
+M0559,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,retrieved,0.5,0,A B,B
+M0559,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,prefix,0.5,0,A B,B
+M0559,e7e2a03337c038a0b3c5aca1bf4a2c369cb92a02cf6b1487fdeeac3893671fa2,remcos,Risk Assessment,none,0.5,0,A B,B
+M0560,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,retrieved,0.5,0,A B D,A D
+M0560,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,prefix,0.5,0,A B D,A
+M0560,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,none,0.5,0,A B D,
+M0561,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A,A
+M0561,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0561,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A,A C
+M0562,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Persistence Techniques,retrieved,0.5,0,A E,A B C D E F G H
+M0562,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Persistence Techniques,prefix,0.5,0,A E,A B C D E F G H
+M0562,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Persistence Techniques,none,0.5,0,A E,
+M0563,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,retrieved,0.5,0,C,C E
+M0563,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,prefix,0.5,0,C,C D
+M0563,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,Behavioral Analysis,none,0.5,1,C,C
+M0564,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,File Operations,retrieved,0.5,0,B A D,A B E
+M0564,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,File Operations,prefix,0.5,0,B A D,D E
+M0564,94465e214c05a6b477f6310957448e7d891ce37c960e36d246294eb6843081aa,remcos,File Operations,none,0.5,0,B A D,
+M0565,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,System Interactions,retrieved,0.5,0,A B,B E
+M0565,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,System Interactions,prefix,0.5,0,A B,B D
+M0565,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,System Interactions,none,0.5,0,A B,B
+M0566,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,Persistence Techniques,retrieved,0.5,0,A B C,A B C E
+M0566,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,Persistence Techniques,prefix,0.5,0,A B C,A B C E
+M0566,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,Persistence Techniques,none,0.5,0,A B C,
+M0567,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,File Operations,retrieved,0.5,0,A B C E,A B
+M0567,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,File Operations,prefix,0.5,0,A B C E,A
+M0567,8ed88d0ec75536f630adf76d4639a2d1da00311b25ad0bc151384559db840879,remcos,File Operations,none,0.5,0,A B C E,
+M0569,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,System Interactions,retrieved,0.5,0,A B C F,A E F
+M0569,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,System Interactions,prefix,0.5,0,A B C F,A
+M0569,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,System Interactions,none,0.5,0,A B C F,
+M0570,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,Risk Assessment,retrieved,0.5,0,A B C E F,A B E F
+M0570,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,Risk Assessment,prefix,0.5,0,A B C E F,B E F
+M0570,6fcbf672e0e5a4d3c3bcc34d4bad46f94c11fb29fbca5e1b23ce764da45ba8fb,remcos,Risk Assessment,none,0.5,0,A B C E F,
+M0571,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Privilege Escalation,retrieved,0.5,1,D E,D E
+M0571,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Privilege Escalation,prefix,0.5,0,D E,
+M0571,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Privilege Escalation,none,0.5,0,D E,
+M0572,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Behavioral Analysis,retrieved,0.5,0,B,A B C E F
+M0572,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Behavioral Analysis,prefix,0.5,0,B,A B C D E F
+M0572,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Behavioral Analysis,none,0.5,0,B,
+M0573,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,System Interactions,retrieved,0.5,0,A B C,A C D
+M0573,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,System Interactions,prefix,0.5,0,A B C,A C
+M0573,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,System Interactions,none,0.5,0,A B C,
+M0574,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,A,A
+M0574,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A,
+M0574,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A,
+M0575,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Persistence Techniques,retrieved,0.5,0,A B C D E F,A B C G
+M0575,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Persistence Techniques,prefix,0.5,0,A B C D E F,A B C D G
+M0575,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,Persistence Techniques,none,0.5,0,A B C D E F,
+M0576,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,File Operations,retrieved,0.5,0,A C D E,A B E
+M0576,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,File Operations,prefix,0.5,0,A C D E,A B E
+M0576,04477b12cf1bb7c6aa72f3e830af1cd22d8970dbf17b1ec5062a0a1fd3dcd4fc,remcos,File Operations,none,0.5,0,A C D E,
+M0577,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Privilege Escalation,retrieved,0.5,1,A,A
+M0577,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Privilege Escalation,prefix,0.5,0,A,
+M0577,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Privilege Escalation,none,0.5,0,A,
+M0578,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Behavioral Analysis,retrieved,0.5,1,D F E,D E F
+M0578,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Behavioral Analysis,prefix,0.5,0,D F E,E F
+M0578,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Behavioral Analysis,none,0.5,0,D F E,D F
+M0579,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,System Interactions,retrieved,0.5,0,C,B C E F
+M0579,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,System Interactions,prefix,0.5,0,C,B F
+M0579,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,System Interactions,none,0.5,0,C,
+M0580,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C,
+M0580,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C,
+M0580,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C,
+M0581,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Evasion Techniques,retrieved,0.5,0,D E F,A D E F
+M0581,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Evasion Techniques,prefix,0.5,0,D E F,A D E F
+M0581,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Evasion Techniques,none,0.5,0,D E F,
+M0582,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Persistence Techniques,retrieved,0.5,1,A,A
+M0582,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Persistence Techniques,prefix,0.5,1,A,A
+M0582,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,Persistence Techniques,none,0.5,0,A,
+M0583,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,File Operations,retrieved,0.5,0,G,F G
+M0583,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,File Operations,prefix,0.5,0,G,B C D G
+M0583,f4f81302b10960ebaea07666c3aa2d2147e093ba00c559a81d125f95c2230835,remcos,File Operations,none,0.5,0,G,
+M0584,3aa746d45a8db14fb49d2fddd2141a8c41919fd262ef07140f2bb73e77e53147,remcos,Persistence Techniques,retrieved,0.5,0,A,A B E
+M0584,3aa746d45a8db14fb49d2fddd2141a8c41919fd262ef07140f2bb73e77e53147,remcos,Persistence Techniques,prefix,0.5,0,A,A B C D E
+M0584,3aa746d45a8db14fb49d2fddd2141a8c41919fd262ef07140f2bb73e77e53147,remcos,Persistence Techniques,none,0.5,0,A,
+M0585,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Privilege Escalation,retrieved,0.5,0,F,A B C D E
+M0585,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Privilege Escalation,prefix,0.5,0,F,A B C D E
+M0585,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Privilege Escalation,none,0.5,1,F,F
+M0586,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Behavioral Analysis,retrieved,0.5,0,A B C D,B C E
+M0586,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Behavioral Analysis,prefix,0.5,0,A B C D,C
+M0586,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Behavioral Analysis,none,0.5,0,A B C D,
+M0587,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,System Interactions,retrieved,0.5,0,A B C D F G,A B C F G
+M0587,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,System Interactions,prefix,0.5,0,A B C D F G,A B
+M0587,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,System Interactions,none,0.5,0,A B C D F G,
+M0588,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,1,C,C
+M0588,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,1,C,C
+M0588,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,C,C E
+M0589,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Evasion Techniques,retrieved,0.5,1,A B C D E,A B C D E
+M0589,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Evasion Techniques,prefix,0.5,0,A B C D E,
+M0589,fa84aaca643d68422484d8c78e900d06102d0fbff57598755e97705bfe419c24,remcos,Evasion Techniques,none,0.5,0,A B C D E,
+M0590,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,System Interactions,retrieved,0.5,1,A B C D E,A B C D E
+M0590,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,System Interactions,prefix,0.5,0,A B C D E,C F
+M0590,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,System Interactions,none,0.5,0,A B C D E,
+M0591,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B,A B E
+M0591,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B,
+M0591,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A B,
+M0592,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,Risk Assessment,retrieved,0.5,1,A B C D,A B C D
+M0592,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,Risk Assessment,prefix,0.5,1,A B C D,A B C D
+M0592,d65e65c01876dd99a63b3fa6f97710fee7ad82e63d75ce7f34fd4343e5d9d20a,remcos,Risk Assessment,none,0.5,0,A B C D,
+M0593,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Evasion Techniques,retrieved,0.5,0,B A,B F
+M0593,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Evasion Techniques,prefix,0.5,0,B A,B F
+M0593,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Evasion Techniques,none,0.5,0,B A,B E
+M0594,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Risk Assessment,retrieved,0.5,0,B E,A B E
+M0594,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Risk Assessment,prefix,0.5,0,B E,A B E
+M0594,4b83a33145a7f65d9e0bc816c4b6d8c23635738f4d1d9cd37e9cf3a5888dbd06,remcos,Risk Assessment,none,0.5,0,B E,
+M0595,329f762304c5f05abdeed08823e31f8904b265c6df95702ca43efae8f6563520,remcos,Privilege Escalation,retrieved,0.5,0,C,A B C D E F
+M0595,329f762304c5f05abdeed08823e31f8904b265c6df95702ca43efae8f6563520,remcos,Privilege Escalation,prefix,0.5,0,C,A B C D E F
+M0595,329f762304c5f05abdeed08823e31f8904b265c6df95702ca43efae8f6563520,remcos,Privilege Escalation,none,0.5,0,C,
+M0606,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,System Interactions,retrieved,0.5,1,A B C D,A B C D
+M0606,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,System Interactions,prefix,0.5,0,A B C D,B D E
+M0606,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,System Interactions,none,0.5,0,A B C D,
+M0607,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,MITRE ATT&CK Framework Mapping,retrieved,0.5,0,A B C D,A B C D F
+M0607,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,MITRE ATT&CK Framework Mapping,prefix,0.5,0,A B C D,B C
+M0607,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,MITRE ATT&CK Framework Mapping,none,0.5,0,A B C D,A
+M0608,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,File Operations,retrieved,0.5,0,A D E,A D E F
+M0608,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,File Operations,prefix,0.5,0,A D E,F
+M0608,395b770294b42cc9643bda8493591713f80e56cb3e13e438ea2f62295e8585c5,remcos,File Operations,none,0.5,0,A D E,

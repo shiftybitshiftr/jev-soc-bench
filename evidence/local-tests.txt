@@ -1,0 +1,30 @@
+test_approval_not_inferred_from_confidence (test_bench.ContainmentSafety) ... ok
+test_conflicting_outputs (test_bench.ContainmentSafety) ... ok
+test_critical_service_requires_review (test_bench.ContainmentSafety) ... ok
+test_forbidden_actions (test_bench.ContainmentSafety) ... ok
+test_injection_cannot_grant_approval (test_bench.ContainmentSafety) ... ok
+test_low_choice_confidence (test_bench.ContainmentSafety) ... ok
+test_missing_evidence_not_safe_closure (test_bench.ContainmentSafety) ... ok
+test_missing_target (test_bench.ContainmentSafety) ... ok
+test_only_explicit_lab_can_simulate (test_bench.ContainmentSafety) ... ok
+test_stale_and_missing_telemetry (test_bench.ContainmentSafety) ... ok
+test_uncertainty_prevents_execution (test_bench.ContainmentSafety) ... ok
+test_unknown_action (test_bench.ContainmentSafety) ... ok
+test_unsafe_closure (test_bench.ContainmentSafety) ... ok
+test_unverified_target (test_bench.ContainmentSafety) ... ok
+test_api_redirect_cannot_leak_credential (test_bench.ResponseValidation) ... ok
+test_api_unauthorized_is_not_retried (test_bench.ResponseValidation) ... ok
+test_budget_blocks_before_network (test_bench.ResponseValidation) ... ok
+test_choice_not_maximum (test_bench.ResponseValidation) ... ok
+test_invalid_probability_mass (test_bench.ResponseValidation) ... ok
+test_missing_answer (test_bench.ResponseValidation) ... ok
+test_missing_probability (test_bench.ResponseValidation) ... ok
+test_nan_infinite_negative_or_boolean (test_bench.ResponseValidation) ... ok
+test_no_key_no_network (test_bench.ResponseValidation) ... ok
+test_unknown_choice (test_bench.ResponseValidation) ... ok
+test_valid_response (test_bench.ResponseValidation) ... ok
+
+----------------------------------------------------------------------
+Ran 25 tests in 0.006s
+
+OK

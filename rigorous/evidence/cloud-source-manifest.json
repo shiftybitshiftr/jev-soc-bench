@@ -1,0 +1,128 @@
+[
+  {
+    "path": "datasets/attack_techniques/T1078.004/azure_ad_service_principal_authentication/azure_ad_service_principal_authentication.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1078.004/azure_ad_service_principal_authentication/azure_ad_service_principal_authentication.log",
+    "sha256": "9134a3a6c8fa2ef745ad24bc7a6e32351c984a28450e8c50b9be6b2523dd4d78",
+    "bytes": 85290,
+    "retrieved_at": "2026-10-04T08:23:34.219306+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1078.004/azure_ad_service_principal_authentication/azure_ad_service_principal_authentication.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1078.004/azure_ad_service_principal_authentication/azure_ad_service_principal_authentication.yml",
+    "sha256": "3c681a988945cdf54215df398fd338e758c48662ed5d6af7859325842df58591",
+    "bytes": 629,
+    "retrieved_at": "2026-10-04T08:23:33.893227+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1078.004/okta_single_factor_auth/okta_single_factor_auth.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1078.004/okta_single_factor_auth/okta_single_factor_auth.log",
+    "sha256": "9a52cf20e183507921b96d11058b7e4d657a4bb97a449e0a0f5fdfbdaa435900",
+    "bytes": 12530,
+    "retrieved_at": "2026-10-04T08:23:34.138619+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1078.004/okta_single_factor_auth/okta_single_factor_auth.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1078.004/okta_single_factor_auth/okta_single_factor_auth.yml",
+    "sha256": "c4385f26466082ee15c0fbe0203617299926ccbb99694a0483a95bfe29736bee",
+    "bytes": 444,
+    "retrieved_at": "2026-10-04T08:23:33.899911+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.001/azure_ad_service_principal_credentials/azure-audit.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.001/azure_ad_service_principal_credentials/azure-audit.log",
+    "sha256": "0a6de8d20356feb056af2d90a17d82012348236f70b67b60a57f680016b7326e",
+    "bytes": 1850,
+    "retrieved_at": "2026-10-04T08:23:34.150319+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.001/azure_ad_service_principal_credentials/azure_ad_service_principal_credentials.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.001/azure_ad_service_principal_credentials/azure_ad_service_principal_credentials.yml",
+    "sha256": "02166d353403c69dbcb1c191887a00c6ed70b964f06f9db12ef9b5adae7090e1",
+    "bytes": 583,
+    "retrieved_at": "2026-10-04T08:23:34.085669+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.001/okta_new_api_token_created/okta_new_api_token_created.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.001/okta_new_api_token_created/okta_new_api_token_created.log",
+    "sha256": "b52ec9b3b7c971523856959f16ac5da677ae7272410ac287d6d2ef250290625c",
+    "bytes": 2047,
+    "retrieved_at": "2026-10-04T08:23:34.365035+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.001/okta_new_api_token_created/okta_new_api_token_created.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.001/okta_new_api_token_created/okta_new_api_token_created.yml",
+    "sha256": "5fac8883146350ebf7bed4d9f55179f7433701d317b714ecd1c97fadffd6fd3c",
+    "bytes": 542,
+    "retrieved_at": "2026-10-04T08:23:34.310000+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.002/o365_mailbox_folder_read_granted/o365_mailbox_folder_read_granted.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.002/o365_mailbox_folder_read_granted/o365_mailbox_folder_read_granted.log",
+    "sha256": "883ba62eda80ecb6df9d88d3d1041c4dc88b04e9cd98f86460077b10dae08e7c",
+    "bytes": 13341,
+    "retrieved_at": "2026-10-04T08:23:34.527933+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.002/o365_mailbox_folder_read_granted/o365_mailbox_folder_read_granted.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.002/o365_mailbox_folder_read_granted/o365_mailbox_folder_read_granted.yml",
+    "sha256": "6dd56df2bac30d4e1d134431bd04c6da22dc84e97a930dfd9055971042ac3d27",
+    "bytes": 476,
+    "retrieved_at": "2026-10-04T08:23:34.390420+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.003/azure_ad_admin_consent/azure_ad_admin_consent.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.003/azure_ad_admin_consent/azure_ad_admin_consent.log",
+    "sha256": "c111f6a37f01782328cb71bc944394c161733978b9eff68a99b72cdf63cad324",
+    "bytes": 16668,
+    "retrieved_at": "2026-10-04T08:23:34.620354+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.003/azure_ad_admin_consent/azure_ad_admin_consent.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.003/azure_ad_admin_consent/azure_ad_admin_consent.yml",
+    "sha256": "4fe9f057b2d6cca5df61f11ac8b4913f37a1252da97380167d8fab5b05ddc0c9",
+    "bytes": 546,
+    "retrieved_at": "2026-10-04T08:23:34.609033+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.003/azure_ad_assign_global_administrator/azure-audit.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.003/azure_ad_assign_global_administrator/azure-audit.log",
+    "sha256": "ac21b7bdf60d28cbbd9237a399985b7cf7e2b351bacff026b4f9a8a28e135912",
+    "bytes": 32893,
+    "retrieved_at": "2026-10-04T08:23:34.762289+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.003/azure_ad_assign_global_administrator/azure_ad_assign_global_administrator.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.003/azure_ad_assign_global_administrator/azure_ad_assign_global_administrator.yml",
+    "sha256": "16e11465f13e5f32eced50c662a3ba4883f6c83173396b1d0d6c75d11d848a6d",
+    "bytes": 438,
+    "retrieved_at": "2026-10-04T08:23:34.770617+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.005/azure_ad_register_new_mfa_method/azure_ad_register_new_mfa_method.log",
+    "url": "https://media.githubusercontent.com/media/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.005/azure_ad_register_new_mfa_method/azure_ad_register_new_mfa_method.log",
+    "sha256": "c99d21c5ffc0a698829aa9be7fc91f10e1ac5154c89dd12d9c16b3a9da1c8cc7",
+    "bytes": 125080,
+    "retrieved_at": "2026-10-04T08:23:34.920313+00:00"
+  },
+  {
+    "path": "datasets/attack_techniques/T1098.005/azure_ad_register_new_mfa_method/azure_ad_register_new_mfa_method.yml",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/datasets/attack_techniques/T1098.005/azure_ad_register_new_mfa_method/azure_ad_register_new_mfa_method.yml",
+    "sha256": "6a3764fd19416987fcb3fdddf6e238a24533df26b6af5f49a896de0d503ad002",
+    "bytes": 578,
+    "retrieved_at": "2026-10-04T08:23:34.796496+00:00"
+  },
+  {
+    "path": "LICENSE",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/LICENSE",
+    "sha256": "8505946b2464fa90223996d99eecbc7639a86648ca071f0cac21695be2623a0a",
+    "bytes": 11344,
+    "retrieved_at": "2026-10-04T08:23:34.935655+00:00"
+  },
+  {
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/splunk/attack_data/a92cc4e6d7e39d56a0840d206a0963eeee0e22db/README.md",
+    "sha256": "849931b69b5ec45132478071de895ab0e12503b5bc9864ae129137ed443c0ae2",
+    "bytes": 6499,
+    "retrieved_at": "2026-10-04T08:23:34.930554+00:00"
+  }
+]

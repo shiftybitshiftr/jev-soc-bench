@@ -1,0 +1,50 @@
+{
+  "mode": "recommendations and local simulation only",
+  "attribution": "Authored by the test bench. Jev selects among these typed actions; it does not generate this rationale.",
+  "global_requirements": [
+    "Confirm current evidence and exact target identity.",
+    "Preserve relevant evidence with timestamps, source IDs, and hashes before destructive recovery.",
+    "Record authorized approval and assess dependencies and service impact.",
+    "Verify action completion from the target system, not merely a successful tool invocation.",
+    "Verify attack behavior stops; monitor for alternate sessions, credentials, and affected assets.",
+    "Recover only after eradication and an approved validation plan. Retain an audit trail."
+  ],
+  "actions": {
+    "isolate_endpoint": {
+      "scope": "One verified noncritical EDR device ID, retaining management access.",
+      "preserve": "Process tree, relevant file hashes, network connections, and volatile evidence if safely collectible without delaying urgent containment.",
+      "verify": "EDR isolation status plus independent network telemetry showing malicious communication stopped.",
+      "rollback": "Release isolation after incident-owner approval, eradication/rebuild, credential remediation, and health validation."
+    },
+    "revoke_user_sessions": {
+      "scope": "Verified compromised user's affected sessions and refresh tokens. Avoid shared IP blocking.",
+      "preserve": "Identity audit, session metadata, mailbox rules and access history.",
+      "verify": "Identity provider confirms revocation; old sessions no longer work; malicious forwarding or grants are removed through separately approved remediation.",
+      "rollback": "Revoked sessions are not restored. Reauthenticate the verified user after credential and MFA remediation."
+    },
+    "disable_access_key": {
+      "scope": "Exact compromised access key ID after dependency assessment.",
+      "preserve": "Cloud audit and object-access logs; key metadata without secret values.",
+      "verify": "Provider confirms inactive state and subsequent attempted uses are denied; review newly created credentials or grants.",
+      "rollback": "Prefer a newly issued least-privilege replacement and validated service recovery. Do not reenable a known stolen key."
+    },
+    "quarantine_workload": {
+      "scope": "Exact pod/workload UID with a scoped network policy; account for controller recreation.",
+      "preserve": "Runtime process, image digest, manifest, logs and relevant filesystem evidence.",
+      "verify": "Policy is effective for the target and any replacement workload; miner or C2 egress stops; neighboring services stay healthy.",
+      "rollback": "Deploy a known-good workload after image/credential/root-cause remediation; remove quarantine only with approval."
+    },
+    "restrict_malicious_egress": {
+      "scope": "Verified malicious destination/flow with critical authentication and management traffic preserved; incident commander approves.",
+      "preserve": "Flow records, relevant host evidence, policy before/after versions and timestamps.",
+      "verify": "Rule hit counters and independent flows confirm blocking; critical service health remains intact. Scoped egress blocking alone does not eradicate compromise.",
+      "rollback": "Time-bound reviewed rule with saved prior configuration; restore only after threat remediation and dependency verification."
+    },
+    "none": {
+      "scope": "No state-changing containment. Collect missing evidence or escalate as required.",
+      "preserve": "Existing alert and telemetry, explicit gaps, source reliability and unresolved contradictions.",
+      "verify": "Analyst or new evidence resolves uncertainty; absence of telemetry cannot justify closure.",
+      "rollback": "Not applicable."
+    }
+  }
+}

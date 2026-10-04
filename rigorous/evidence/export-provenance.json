@@ -1,0 +1,6 @@
+{
+  "exported_utc": "2026-10-04T18:50:47.355315+00:00",
+  "primary_dev_thresholds_written_utc": "2026-10-04T08:32:35.485979+00:00",
+  "dev_thresholds_sha256": "2c2da79184621b3362eae30bfda1b9986655b61be1e13c0831a8f42bee0294a4",
+  "note": "Recorded from the evaluated workspace at repository export. A clone cannot preserve original filesystem timestamps; use this recorded timestamp for historical ordering checks. Original validation also records that calibration preceded test calls."
+}

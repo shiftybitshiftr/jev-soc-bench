@@ -1,0 +1,10 @@
+{
+  "completed_utc": "2026-10-04T08:38:56.046710+00:00",
+  "calls": 2695,
+  "attempts": 2695,
+  "input_tokens": 18612554,
+  "estimated_cost_usd": 0.781727268,
+  "expected_nonagent": 2507,
+  "actual_nonagent": 2507,
+  "agent_episodes": 60
+}

@@ -1,0 +1,37 @@
+{
+  "post_hoc_only": true,
+  "original_frozen_threshold": 0.5,
+  "threshold_sensitivity": [
+    {
+      "threshold": 0.5,
+      "exact_sets": 145,
+      "unsupported_actions": 71,
+      "missed_actions": 0
+    },
+    {
+      "threshold": 0.8,
+      "exact_sets": 151,
+      "unsupported_actions": 0,
+      "missed_actions": 76
+    },
+    {
+      "threshold": 0.9,
+      "exact_sets": 134,
+      "unsupported_actions": 0,
+      "missed_actions": 177
+    }
+  ],
+  "unsupported_score_range": [
+    0.5,
+    0.77
+  ],
+  "unsupported_score_median": 0.64,
+  "agentic_incident_completion": {
+    "n": 12,
+    "complete": 2
+  },
+  "agentic_benign_completion": {
+    "n": 12,
+    "complete": 12
+  }
+}

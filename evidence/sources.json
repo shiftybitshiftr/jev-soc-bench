@@ -1,0 +1,26 @@
+[
+  {
+    "url": "https://docs.typesafe.ai/api.md",
+    "path": "api.md.txt",
+    "sha256": "6b760275f89341fe15cff80c28aacae94d7d0c0c99afcd987ec0bca680b5713a",
+    "retrieved_at": "2026-10-03T23:45:17.611058+00:00"
+  },
+  {
+    "url": "https://docs.typesafe.ai/confidence.md",
+    "path": "confidence.md.txt",
+    "sha256": "5c325ec0c0b69e78129406ca7c5d3aef113bce365abd34985b8674cd278c81be",
+    "retrieved_at": "2026-10-03T23:45:17.804044+00:00"
+  },
+  {
+    "url": "https://docs.typesafe.ai/models.md",
+    "path": "models.md.txt",
+    "sha256": "15351adaab85874b5f1a942fc2fdf3c7b3ecadcc936d580793d734855a0038f3",
+    "retrieved_at": "2026-10-03T23:45:17.983579+00:00"
+  },
+  {
+    "url": "https://docs.typesafe.ai/model-jaggedness/jev-1.13.md",
+    "path": "model-jaggedness_jev-1.13.md.txt",
+    "sha256": "5d471be7c8d2a359a81979b7bcf2c2fab536a198d4e50155c4233380d5c03986",
+    "retrieved_at": "2026-10-03T23:45:18.173076+00:00"
+  }
+]

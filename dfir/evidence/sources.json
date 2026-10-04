@@ -1,0 +1,182 @@
+[
+  {
+    "title": "Apache ActiveMQ Exploit Leads to LockBit Ransomware",
+    "date": "2026-02-23",
+    "url": "https://thedfirreport.com/2026/02/23/apache-activemq-exploit-leads-to-lockbit-ransomware/",
+    "facts": {
+      "1": [
+        "Initial Access",
+        "Exposed ActiveMQ received exploitation traffic."
+      ],
+      "2": [
+        "Case Summary; Initial Access",
+        "Exploitation ran a downloaded payload; privilege escalation and LSASS access followed."
+      ],
+      "3": [
+        "Case Summary; Lateral Movement",
+        "Remote services spread payloads; a privileged service account was exposed on another host."
+      ],
+      "4": [
+        "Case Summary",
+        "Eviction did not prevent later reentry through the unpatched service and reuse of exposed credentials."
+      ]
+    },
+    "caveat": "The recovery snapshot is an authored counterfactual review before the reported return. It does not claim the original responders recorded these tickets.",
+    "id": "A",
+    "final_url": "https://thedfirreport.com/2026/02/23/apache-activemq-exploit-leads-to-lockbit-ransomware/",
+    "status": 200,
+    "sha256": "99bd1012db61fd47a3fc07629cb13e46e70bb3256dfbbc0aea23bce709aaea97",
+    "bytes": 227422,
+    "retrieved_at": "2026-10-04T06:47:12.356753+00:00"
+  },
+  {
+    "title": "Blurring the Lines: Intrusion Shows Connection With Three Major Ransomware Gangs",
+    "date": "2025-09-08",
+    "url": "https://thedfirreport.com/2025/09/08/blurring-the-lines-intrusion-shows-connection-with-three-major-ransomware-gangs/",
+    "facts": {
+      "1": [
+        "Initial Access",
+        "An executable impersonated EarthTime."
+      ],
+      "2": [
+        "Execution",
+        "The process chain reached injected MSBuild, retrieved configuration and contacted external infrastructure."
+      ],
+      "3": [
+        "Case Summary; Exfiltration",
+        "Lateral access reached a file server; WinRAR archives were transferred with WinSCP over FTP."
+      ],
+      "4": [
+        "Case Summary; Execution",
+        "Additional backdoors and discovery tooling were observed, but ransomware deployment was not observed before eviction."
+      ]
+    },
+    "caveat": "Tool associations do not establish actor attribution or executed ransomware. Snapshot four precedes eviction.",
+    "id": "B",
+    "final_url": "https://thedfirreport.com/2025/09/08/blurring-the-lines-intrusion-shows-connection-with-three-major-ransomware-gangs/",
+    "status": 200,
+    "sha256": "2299e4fb6e02a89624471e27dcf36445a0e67194c806dc3f1c79ecb2eae2310c",
+    "bytes": 188774,
+    "retrieved_at": "2026-10-04T06:47:12.440428+00:00"
+  },
+  {
+    "title": "Flash Alert: EtherRat and TukTuk C2 End in The Gentleman Ransomware",
+    "date": "2026-05-11",
+    "url": "https://thedfirreport.com/2026/05/11/flash-alert-etherrat-and-tuktuk-c2-end-in-the-gentleman-ransomware/",
+    "facts": {
+      "1": [
+        "Overview",
+        "A RAMMap impersonating MSI introduced portable Node.js and obfuscated JavaScript."
+      ],
+      "2": [
+        "Overview",
+        "Run-key persistence survived an initially inactive C2 configuration."
+      ],
+      "3": [
+        "Overview; Exfiltration",
+        "Stolen service credentials, GoTo Resolve, LSASS/NTDS dumping and Rclone exfiltration preceded impact."
+      ],
+      "4": [
+        "Overview",
+        "Ransomware used a malicious GPO with SYSVOL/NETLOGON scheduled tasks. Arweave resolver capability was not confirmed used."
+      ]
+    },
+    "caveat": "Implemented capability is not observed use. Provider-wide blocking is not justified by a malicious tenant or tunnel.",
+    "id": "C",
+    "final_url": "https://thedfirreport.com/2026/05/11/flash-alert-etherrat-and-tuktuk-c2-end-in-the-gentleman-ransomware/",
+    "status": 200,
+    "sha256": "5cd0d6a030da219f007460a926ea747f7299810b25a61f6c14842d89485eda08",
+    "bytes": 140218,
+    "retrieved_at": "2026-10-04T06:47:12.512696+00:00"
+  },
+  {
+    "title": "Another Confluence Bites the Dust: Falling to ELPACO-team Ransomware",
+    "date": "2025-05-19",
+    "url": "https://thedfirreport.com/2025/05/19/another-confluence-bites-the-dust-falling-to-elpaco-team-ransomware/",
+    "facts": {
+      "1": [
+        "Initial Access",
+        "Exploitation traffic targeted an exposed Confluence instance."
+      ],
+      "2": [
+        "Initial Access; Execution",
+        "Tomcat launched commands and downloaded executable payloads."
+      ],
+      "3": [
+        "Case Summary; Credential Access; Lateral Movement",
+        "Credentials, AnyDesk and remote execution enabled lateral movement to servers."
+      ],
+      "4": [
+        "Case Summary; Impact",
+        "Ransomware followed about 62 hours after entry; widespread data exfiltration was not evidenced."
+      ]
+    },
+    "caveat": "Small AnyDesk transfers are not proof of bulk business-data theft. Reconstructed phase order is not an exact replay clock.",
+    "id": "D",
+    "final_url": "https://thedfirreport.com/2025/05/19/another-confluence-bites-the-dust-falling-to-elpaco-team-ransomware/",
+    "status": 200,
+    "sha256": "04043d4fe15846546e33eb5882d0aa9657565df688c0820e092145c7b785dc54",
+    "bytes": 199166,
+    "retrieved_at": "2026-10-04T06:47:12.594839+00:00"
+  },
+  {
+    "title": "Hide Your RDP: Password Spray Leads to RansomHub Deployment",
+    "date": "2025-06-30",
+    "url": "https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/",
+    "facts": {
+      "1": [
+        "Initial Access",
+        "An exposed RDP server received several hours of password spraying."
+      ],
+      "2": [
+        "Case Summary; Credential Access",
+        "Successful logons led to discovery and credential harvesting."
+      ],
+      "3": [
+        "Case Summary; Exfiltration",
+        "RDP reached critical servers; Atera persisted, and Rclone transferred files using SFTP on port 443."
+      ],
+      "4": [
+        "Case Summary; Impact",
+        "Ransomware spread over SMB and remote services after roughly 118 hours."
+      ]
+    },
+    "caveat": "The first snapshot intentionally ends before successful logons. A port number alone does not establish application protocol.",
+    "id": "E",
+    "final_url": "https://thedfirreport.com/2025/06/30/hide-your-rdp-password-spray-leads-to-ransomhub-deployment/",
+    "status": 200,
+    "sha256": "3150a26dfeb0599d9b50aa9af1257766505ab426e523726afdf3985d09ede271",
+    "bytes": 161436,
+    "retrieved_at": "2026-10-04T06:47:12.734348+00:00"
+  },
+  {
+    "title": "From Bing Search to Ransomware: Bumblebee and AdaptixC2 Deliver Akira",
+    "date": "2026-06-29",
+    "url": "https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira-3/",
+    "facts": {
+      "1": [
+        "Initial Access",
+        "A search for OpManager led to an impersonation site and MSI download."
+      ],
+      "2": [
+        "Execution",
+        "DLL sideloading established initial access and later process injection extended it."
+      ],
+      "3": [
+        "Case Summary; Exfiltration",
+        "Directory credential theft, privileged accounts, RustDesk and FileZilla exfiltration preceded encryption."
+      ],
+      "4": [
+        "Impact",
+        "Encryption reached the root domain before a later return into a child domain."
+      ]
+    },
+    "caveat": "The article combines two investigations. This fixture uses the main OpManager chain only; it does not blend in the parallel BYOVD incident.",
+    "id": "F",
+    "final_url": "https://thedfirreport.com/2026/06/29/from-bing-search-to-ransomware-bumblebee-and-adaptixc2-deliver-akira-3/",
+    "status": 200,
+    "sha256": "b4def05bacfe703de44fd1f29653541cb40444e538ec38fd04ae5c0d13b93c3d",
+    "bytes": 323282,
+    "retrieved_at": "2026-10-04T06:47:12.822989+00:00"
+  }
+]

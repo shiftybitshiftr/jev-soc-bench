@@ -1,0 +1,102 @@
+{
+  "rows": 757641,
+  "columns": [
+    "src_ip",
+    "dst_ip",
+    "ts_start",
+    "protocol",
+    "src_port",
+    "dst_port",
+    "bytes_in",
+    "bytes_out",
+    "pkts_in",
+    "pkts_out",
+    "tcp_flags",
+    "flow_duration_ms",
+    "sampling_rate",
+    "Label",
+    "Attack",
+    "source"
+  ],
+  "sources": {
+    "malware_1_1": {
+      "0": 441488,
+      "1": 191299
+    },
+    "malware_34_1": {
+      "0": 1891,
+      "1": 5318
+    },
+    "malware_3_1": {
+      "0": 1962,
+      "1": 83922
+    },
+    "malware_8_1": {
+      "0": 2181,
+      "1": 2056
+    },
+    "normal-at-home-linux": {
+      "0": 9797,
+      "1": 0
+    },
+    "normal-https-website": {
+      "0": 51,
+      "1": 0
+    },
+    "normal-university-linux": {
+      "0": 7769,
+      "1": 0
+    },
+    "normal-xdsl-linux": {
+      "0": 9907,
+      "1": 0
+    }
+  },
+  "normal_capture_rows": 27524,
+  "normal_protocol_values": {
+    "unknown": 27524
+  },
+  "normal_pkts_in_missing": 27524,
+  "normal_pkts_out_missing": 27524,
+  "malware_capture_pkts_in_missing": 0,
+  "malware_capture_protocol_values": {
+    "17": 413029,
+    "6": 297654,
+    "1": 19434
+  },
+  "timestamp_ranges": {
+    "malware_1_1": {
+      "min": 1779321600.008208,
+      "max": 1779407999.019709
+    },
+    "malware_34_1": {
+      "min": 1779321637.5271492,
+      "max": 1779407993.4547982
+    },
+    "malware_3_1": {
+      "min": 1779321600.5453882,
+      "max": 1779407999.91526
+    },
+    "malware_8_1": {
+      "min": 1779321629.53585,
+      "max": 1779407984.504988
+    },
+    "normal-at-home-linux": {
+      "min": 1387318159.500617,
+      "max": 1387319439.662244
+    },
+    "normal-https-website": {
+      "min": 1778547607.377165,
+      "max": 1778547689.37648
+    },
+    "normal-university-linux": {
+      "min": 1433854796.523961,
+      "max": 1433872417.766289
+    },
+    "normal-xdsl-linux": {
+      "min": 1387318159.500617,
+      "max": 1387319439.662244
+    }
+  },
+  "exact_duplicates": 0
+}

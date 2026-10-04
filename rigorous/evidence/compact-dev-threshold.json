@@ -1,0 +1,95 @@
+{
+  "selected": 0.5,
+  "grid": [
+    {
+      "threshold": 0.1,
+      "correct": 19,
+      "n": 155
+    },
+    {
+      "threshold": 0.15,
+      "correct": 22,
+      "n": 155
+    },
+    {
+      "threshold": 0.2,
+      "correct": 27,
+      "n": 155
+    },
+    {
+      "threshold": 0.25,
+      "correct": 34,
+      "n": 155
+    },
+    {
+      "threshold": 0.3,
+      "correct": 35,
+      "n": 155
+    },
+    {
+      "threshold": 0.35,
+      "correct": 36,
+      "n": 155
+    },
+    {
+      "threshold": 0.4,
+      "correct": 34,
+      "n": 155
+    },
+    {
+      "threshold": 0.45,
+      "correct": 36,
+      "n": 155
+    },
+    {
+      "threshold": 0.5,
+      "correct": 39,
+      "n": 155
+    },
+    {
+      "threshold": 0.55,
+      "correct": 39,
+      "n": 155
+    },
+    {
+      "threshold": 0.6,
+      "correct": 36,
+      "n": 155
+    },
+    {
+      "threshold": 0.65,
+      "correct": 35,
+      "n": 155
+    },
+    {
+      "threshold": 0.7,
+      "correct": 32,
+      "n": 155
+    },
+    {
+      "threshold": 0.75,
+      "correct": 24,
+      "n": 155
+    },
+    {
+      "threshold": 0.8,
+      "correct": 20,
+      "n": 155
+    },
+    {
+      "threshold": 0.85,
+      "correct": 16,
+      "n": 155
+    },
+    {
+      "threshold": 0.9,
+      "correct": 12,
+      "n": 155
+    },
+    {
+      "threshold": 0.95,
+      "correct": 4,
+      "n": 155
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "dfir/containment-review.json": "68713b0473e04df2f59a7baabd9987be88bf0647ffded24daec2d5c66bd7d4df",
+  "dfir/README.txt": "8f5613ebe045eb3dfcdd726b4a2072d031d04a4cb673087d84b7a474ef8f116b",
+  "dfir/report.html": "bf59b735176d7a46f8184813270db85a40f2e7071f9fc3c3630ea4e8d58670c6",
+  "dfir/evidence/sources.json": "54c75c24fcbacc04394cb9f52c332cbba28213ad76101eccf12c001833426b74",
+  "dfir/evidence/frozen-plan.sha256": "de470e07d0a75e5085154848833056336d0ad7bb0fed08e78f7ce94af66b2507",
+  "dfir/evidence/frozen-plan.json": "36340ad225ee631b086367032be49383354be4aa4e48c9f0777e89e5e4c126f4",
+  "dfir/evidence/report-preview.png": "ea29c05fce807b980af9539589ff8cc070d9eac25de336af71c03d3e74e85045",
+  "dfir/evidence/final-validation.json": "33b94f97e8c09cf84a5593cd1796cbb7d8eab52195ef9f613bc71c1a31ad4584",
+  "dfir/evidence/local-tests.txt": "28cd998da1939cb1ad59a2ff8046e3baad5f649e2e1ef14e20f4254ab0f16e2d",
+  "dfir/results/summary.json": "f2c1ab957bc791de3cb7a913a0092ebcf18ceac5c143c30880cc1c54d4280bd7",
+  "dfir/results/20261004T064722Z-replay.jsonl": "950ab0da0032f8861783de1f0751ed222bc3c65f6e6606d6bf1a104233e2cd6d",
+  "dfir/results/diagnostics.json": "4bc2717e9def4910bf950b14e2abb418732d6d25ecd9c4a001e6213e6f8d9620",
+  "dfir/results/20261004T064809Z-agentic.jsonl": "f8c0d65590d38451b51ec5fc94048b5887e32bb61052552826d887174dafd7c1",
+  "dfir_cases.py": "ec265bb040cfba4cc5e9d3fa58596a4a8245bf41ddff4f947e978d2e94c92e4d",
+  "dfir_eval.py": "10bab7c2e761b41f2d4c79297c130e109d92e9dcc45663ba54370510ffd30f4f",
+  "dfir_report.py": "c3cde42d12dd53a3cae04e525777a5d4f8ceb6c6133a562f81ecacc3acd3d7c5",
+  "test_dfir.py": "2440e104eee338b968a1f1d75e8078e8f59c9e32de969f523c11bdd8ad7fe195"
+}

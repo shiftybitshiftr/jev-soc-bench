@@ -1,0 +1,5 @@
+# Preserve recorded evidence and frozen runtime hashes across checkout platforms.
+* -text
+# These generated formats contain intentional SVG spacing / CSV CRLF records.
+rigorous/figures/*.svg -whitespace
+rigorous/results/*.csv -whitespace

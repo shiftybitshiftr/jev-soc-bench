@@ -1,0 +1,45 @@
+test_approval_not_inferred_from_confidence (test_bench.ContainmentSafety) ... ok
+test_conflicting_outputs (test_bench.ContainmentSafety) ... ok
+test_critical_service_requires_review (test_bench.ContainmentSafety) ... ok
+test_forbidden_actions (test_bench.ContainmentSafety) ... ok
+test_injection_cannot_grant_approval (test_bench.ContainmentSafety) ... ok
+test_insufficient_evidence_blocks_execution (test_bench.ContainmentSafety) ... ok
+test_investigation_must_finish (test_bench.ContainmentSafety) ... ok
+test_low_choice_confidence (test_bench.ContainmentSafety) ... ok
+test_missing_evidence_not_safe_closure (test_bench.ContainmentSafety) ... ok
+test_missing_target (test_bench.ContainmentSafety) ... ok
+test_only_explicit_lab_can_simulate (test_bench.ContainmentSafety) ... ok
+test_stale_and_missing_telemetry (test_bench.ContainmentSafety) ... ok
+test_uncertainty_prevents_execution (test_bench.ContainmentSafety) ... ok
+test_unknown_action (test_bench.ContainmentSafety) ... ok
+test_unsafe_closure (test_bench.ContainmentSafety) ... ok
+test_unverified_target (test_bench.ContainmentSafety) ... ok
+test_api_redirect_cannot_leak_credential (test_bench.ResponseValidation) ... ok
+test_api_unauthorized_is_not_retried (test_bench.ResponseValidation) ... ok
+test_audit_request_detached_from_agent_state (test_bench.ResponseValidation) ... ok
+test_budget_blocks_before_network (test_bench.ResponseValidation) ... ok
+test_choice_not_maximum (test_bench.ResponseValidation) ... ok
+test_invalid_probability_mass (test_bench.ResponseValidation) ... ok
+test_missing_answer (test_bench.ResponseValidation) ... ok
+test_missing_probability (test_bench.ResponseValidation) ... ok
+test_nan_infinite_negative_or_boolean (test_bench.ResponseValidation) ... ok
+test_no_key_no_network (test_bench.ResponseValidation) ... ok
+test_unknown_choice (test_bench.ResponseValidation) ... ok
+test_valid_response (test_bench.ResponseValidation) ... ok
+test_ablation_actually_removes_decisive_evidence (test_dfir.TestDataSeparation) ... ok
+test_each_event_has_valid_provenance (test_dfir.TestDataSeparation) ... ok
+test_menu_does_not_depend_on_gold_or_source (test_dfir.TestDataSeparation) ... ok
+test_no_executor_permission (test_dfir.TestDataSeparation) ... ok
+test_no_future_observations (test_dfir.TestDataSeparation) ... ok
+test_no_gold_source_titles_or_provenance_in_requests (test_dfir.TestDataSeparation) ... ok
+test_variants_never_mutate_frozen_cases (test_dfir.TestDataSeparation) ... ok
+test_capability_does_not_equal_executed_encryption (test_dfir.TestScoring) ... ok
+test_missing_evidence_is_not_benign (test_dfir.TestScoring) ... ok
+test_optional_recovery_server_containment_is_not_penalized (test_dfir.TestScoring) ... ok
+test_partial_agentic_request_is_detached (test_dfir.TestScoring) ... ok
+test_wrong_target_is_not_hidden_by_correct_other_actions (test_dfir.TestScoring) ... ok
+
+----------------------------------------------------------------------
+Ran 40 tests in 0.022s
+
+OK

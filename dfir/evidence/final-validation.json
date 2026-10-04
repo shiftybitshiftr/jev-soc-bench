@@ -1,0 +1,17 @@
+{
+  "checked_at_utc": "2026-10-04T06:59:22.626458+00:00",
+  "local_tests_passed": 40,
+  "browser": {
+    "url": "http://127.0.0.1:8765/dfir/report.html",
+    "source_B_filter_count": 6,
+    "source_B_failures_filter_count": 2,
+    "search_A3_count": 1,
+    "reset_count": 36,
+    "desktop_horizontal_overflow": false,
+    "screenshot": "evidence/report-preview.png"
+  },
+  "local_report_links_exist": true,
+  "live_trace_invariants_verified": true,
+  "frozen_plan_hash_verified": true,
+  "original_traces_and_report_unchanged": true
+}

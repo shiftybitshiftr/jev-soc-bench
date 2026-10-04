@@ -1,0 +1,185 @@
+{
+  "completion": {
+    "completed_utc": "2026-10-04T08:38:56.046710+00:00",
+    "calls": 2695,
+    "attempts": 2695,
+    "input_tokens": 18612554,
+    "estimated_cost_usd": 0.781727268,
+    "expected_nonagent": 2507,
+    "actual_nonagent": 2507,
+    "agent_episodes": 60
+  },
+  "counts": {
+    "malware": 1827,
+    "stress": 180,
+    "agent": 188,
+    "cloud": 244,
+    "policy": 256
+  },
+  "comparisons": {
+    "retrieved_minus_none": {
+      "n": 454,
+      "difference": 0.18502202643171806,
+      "report_cluster_ci95": [
+        0.1448268060539866,
+        0.22528897523069452
+      ],
+      "a_only_correct": 101,
+      "b_only_correct": 17
+    },
+    "retrieved_minus_prefix": {
+      "n": 454,
+      "difference": 0.09911894273127753,
+      "report_cluster_ci95": [
+        0.05591097881766579,
+        0.14285714285714285
+      ],
+      "a_only_correct": 75,
+      "b_only_correct": 30
+    }
+  },
+  "cloud": {
+    "original": {
+      "actor": {
+        "n": 122,
+        "correct": 118,
+        "accuracy": 0.9672131147540983,
+        "source_cluster_ci95": [
+          0.8431372549019608,
+          1.0
+        ]
+      },
+      "event_type": {
+        "n": 122,
+        "correct": 122,
+        "accuracy": 1.0,
+        "source_cluster_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "outcome": {
+        "n": 122,
+        "correct": 121,
+        "accuracy": 0.9918032786885246,
+        "source_cluster_ci95": [
+          0.9540229885057471,
+          1.0
+        ]
+      },
+      "all_fields": {
+        "n": 122,
+        "correct": 117
+      }
+    },
+    "actor_field_removed": {
+      "actor": {
+        "n": 122,
+        "correct": 68,
+        "accuracy": 0.5573770491803278,
+        "source_cluster_ci95": [
+          0.4428364389233954,
+          0.7671416340508806
+        ]
+      },
+      "event_type": {
+        "n": 122,
+        "correct": 122,
+        "accuracy": 1.0,
+        "source_cluster_ci95": [
+          1.0,
+          1.0
+        ]
+      },
+      "outcome": {
+        "n": 122,
+        "correct": 121,
+        "accuracy": 0.9918032786885246,
+        "source_cluster_ci95": [
+          0.9540229885057471,
+          1.0
+        ]
+      },
+      "all_fields": {
+        "n": 122,
+        "correct": 67
+      }
+    },
+    "parser_all_fields": {
+      "correct": 244,
+      "n": 244,
+      "note": "Known-schema extraction contract, no threat inference. Gold is derived from authoritative fields; not a learned-model benchmark."
+    },
+    "parser_repair": {
+      "initial_correct": 228,
+      "corrected": 244,
+      "reason": "Independent parser initially keyed Exchange detection on optional UserId and omitted the Success status spelling. Repaired to detect stable Operation schema and normalize documented status spellings. Frozen labels and Jev scores unchanged."
+    },
+    "wrong_missing_actor": {
+      "n": 54,
+      "choice_confidence_ge_08": 14,
+      "cases": [
+        "C0122",
+        "C0123",
+        "C0126",
+        "C0127",
+        "C0131",
+        "C0132",
+        "C0133",
+        "C0134",
+        "C0135",
+        "C0144",
+        "C0146",
+        "C0148",
+        "C0149",
+        "C0154",
+        "C0156",
+        "C0161",
+        "C0162",
+        "C0163",
+        "C0175",
+        "C0176",
+        "C0178",
+        "C0179",
+        "C0180",
+        "C0181",
+        "C0185",
+        "C0190",
+        "C0191",
+        "C0202",
+        "C0204",
+        "C0205",
+        "C0206",
+        "C0207",
+        "C0208",
+        "C0209",
+        "C0210",
+        "C0212",
+        "C0214",
+        "C0215",
+        "C0217",
+        "C0218",
+        "C0219",
+        "C0220",
+        "C0222",
+        "C0223",
+        "C0225",
+        "C0226",
+        "C0227",
+        "C0230",
+        "C0231",
+        "C0232",
+        "C0233",
+        "C0236",
+        "C0237",
+        "C0242"
+      ]
+    }
+  },
+  "latency_ms": {
+    "median": 169.73,
+    "p95": 239.78099999999998,
+    "p99": 302.7515999999994,
+    "max": 682.78
+  }
+}

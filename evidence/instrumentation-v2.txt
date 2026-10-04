@@ -1,0 +1,22 @@
+Discovered after the initial agentic run on 2026-10-04 UTC:
+
+Client.ask retained a reference to mutable agent state in the returned audit
+payload. Agentic code appended the just-retrieved evidence before writing the row.
+The actual HTTP request was serialized before the append; the saved request.state
+incorrectly included that subsequent tool result. Full-state primary run rows are
+unaffected because those states are not mutated after request serialization.
+
+Original agentic file 20261004T005428Z-agentic.jsonl is preserved as superseded.
+Do not use its saved request.state as exact wire-request evidence. Its response
+outputs are actual Jev responses, but the complete agentic evaluation is rerun
+after Client.ask deep-copies its payload before serialization.
+
+Also hardened deterministic policy: containment now explicitly requires evidence
+sufficiency >= 0.90 and completed investigation in addition to original approval,
+target, freshness, service-impact, probability, and confidence checks. Original
+raw model scores are unchanged. Old gate output remains in original primary rows;
+the final report separately recalculates gate-v2 coverage. No actual containment
+actions or production calls ever occurred. These were prospective gate decisions.
+
+The original frozen plan and gold labels are unchanged. The hardening is an
+implementation finding, not a retroactive change to Jev's accuracy measurements.

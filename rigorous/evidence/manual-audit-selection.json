@@ -1,0 +1,285 @@
+[
+  {
+    "id": "M0018",
+    "topic": "System Interactions",
+    "family": "infostealers",
+    "report": "f9d3e68d1ad8a7056b334da864a4c65c94803ef5d9c34eee1a53b8b1d49209b2",
+    "question": "Based on the report, what types of file system changes were made to the system?",
+    "options": [
+      "A. File deletion",
+      "B. File creation",
+      "C. File modification",
+      "D. Directory creation",
+      "E. Registry modification",
+      "F. File copying"
+    ],
+    "gold": [
+      "B",
+      "C"
+    ],
+    "selected": [
+      "B"
+    ],
+    "scores": {
+      "option_A": 0.29,
+      "option_B": 0.82,
+      "option_C": 0.39,
+      "option_D": 0.08,
+      "option_E": 0.23,
+      "option_F": 0.25
+    }
+  },
+  {
+    "id": "M0020",
+    "topic": "Evasion Techniques",
+    "family": "infostealers",
+    "report": "e9fa1a5ebe7068f630d2612f51ab789df437c06a6a345ab34d834986ea503b07",
+    "question": "What are the techniques used by the malware to evade detection?",
+    "options": [
+      "A. Obfuscated Files or Information",
+      "B. Deobfuscate/Decode Files or Information",
+      "C. System Checks",
+      "D. Virtualization/Sandbox Evasion",
+      "E. Execution Guardrails",
+      "F. Access Token Manipulation",
+      "G. Disable or Modify Tools",
+      "H. Impair Defenses",
+      "I. Software Packing",
+      "J. All of the above"
+    ],
+    "gold": [
+      "J"
+    ],
+    "selected": [
+      "A",
+      "D",
+      "E",
+      "G",
+      "I",
+      "J"
+    ],
+    "scores": {
+      "option_A": 0.56,
+      "option_B": 0.45,
+      "option_C": 0.38,
+      "option_D": 0.68,
+      "option_E": 0.57,
+      "option_F": 0.43,
+      "option_G": 0.54,
+      "option_H": 0.45,
+      "option_I": 0.61,
+      "option_J": 0.9
+    }
+  },
+  {
+    "id": "M0031",
+    "topic": "File Operations",
+    "family": "infostealers",
+    "report": "be71563bc45bed64a8291c3579bd4d5be6ed97f0d64e91b29e37d16339f5b46a",
+    "question": "What file operations are performed by the file, according to the Hybrid Analysis report?",
+    "options": [
+      "A. Creation, modification, deletion, copying, and renaming",
+      "B. Creation and modification of files",
+      "C. Deletion and renaming of files",
+      "D. Creation, deletion, and copying of files",
+      "E. Modification, copying, and renaming of files",
+      "F. Creation, modification, and renaming of files",
+      "G. Deletion and copying of files"
+    ],
+    "gold": [
+      "A"
+    ],
+    "selected": [
+      "B"
+    ],
+    "scores": {
+      "option_A": 0.2,
+      "option_B": 0.75,
+      "option_C": 0.05,
+      "option_D": 0.1,
+      "option_E": 0.09,
+      "option_F": 0.23,
+      "option_G": 0.06
+    }
+  },
+  {
+    "id": "M0032",
+    "topic": "Behavioral Analysis",
+    "family": "infostealers",
+    "report": "72d8f41b75688b029b15fbc4843d988a9afd1dd4c7acc64bd9ad1b42f0f80a3e",
+    "question": "What is the primary purpose of the APIs called by the processes, such as 'CreateProcessA' and 'RtlGetVersion', in the context of this report?",
+    "options": [
+      "A. To create a new process and execute a program",
+      "B. To retrieve system version information",
+      "C. To search a directory for files",
+      "D. To determine if a process is running under WOW64"
+    ],
+    "gold": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "selected": [
+      "A"
+    ],
+    "scores": {
+      "option_A": 0.56,
+      "option_B": 0.23,
+      "option_C": 0.16,
+      "option_D": 0.14
+    }
+  },
+  {
+    "id": "M0040",
+    "topic": "Risk Assessment",
+    "family": "infostealers",
+    "report": "22f2b05a626dda69a125ebae613b9e923eaf29895b33afd54d34925cc06c5d3e",
+    "question": "Based on the analysis, which capabilities make this malware particularly dangerous? (Select all that apply)",
+    "options": [
+      "A. Process Injection",
+      "B. Thread Hijacking",
+      "C. DLL Side-Loading",
+      "D. Dynamic API Resolution",
+      "E. File Deletion",
+      "F. Modify Registry",
+      "G. Keylogging",
+      "H. Screen Capture"
+    ],
+    "gold": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G",
+      "H"
+    ],
+    "selected": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E",
+      "F",
+      "G"
+    ],
+    "scores": {
+      "option_A": 0.65,
+      "option_B": 0.68,
+      "option_C": 0.63,
+      "option_D": 0.58,
+      "option_E": 0.66,
+      "option_F": 0.63,
+      "option_G": 0.63,
+      "option_H": 0.07
+    }
+  },
+  {
+    "id": "M0049",
+    "topic": "Privilege Escalation",
+    "family": "infostealers",
+    "report": "a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc",
+    "question": "What system security-related APIs are NOT used by the sample for privilege escalation?",
+    "options": [
+      "A. OpenThread",
+      "B. CreateMutexA",
+      "C. VirtualAlloc",
+      "D. CreateThread",
+      "E. WriteFile",
+      "F. CreateRemoteThread",
+      "G. ResumeThread",
+      "H. CreateProcessA",
+      "I. OpenProcess",
+      "J. RegCreateKeyExA"
+    ],
+    "gold": [
+      "B",
+      "E",
+      "J"
+    ],
+    "selected": [
+      "A",
+      "G",
+      "I",
+      "J"
+    ],
+    "scores": {
+      "option_A": 0.73,
+      "option_B": 0.41,
+      "option_C": 0.15,
+      "option_D": 0.1,
+      "option_E": 0.36,
+      "option_F": 0.11,
+      "option_G": 0.82,
+      "option_H": 0.19,
+      "option_I": 0.72,
+      "option_J": 0.56
+    }
+  },
+  {
+    "id": "M0050",
+    "topic": "MITRE ATT&CK Framework Mapping",
+    "family": "infostealers",
+    "report": "a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc",
+    "question": "What malicious tactics and techniques are employed by the file according to the MITRE ATT&CK framework?",
+    "options": [
+      "A. Command and Control",
+      "B. Execution",
+      "C. Discovery",
+      "D. Persistence",
+      "E. Impact",
+      "F. Privilege Escalation",
+      "G. Defense Evasion",
+      "H. Credential Access",
+      "I. All of the above"
+    ],
+    "gold": [
+      "I"
+    ],
+    "selected": [
+      "F",
+      "H"
+    ],
+    "scores": {
+      "option_B": 0.18,
+      "option_C": 0.46,
+      "option_F": 0.5,
+      "option_D": 0.37,
+      "option_E": 0.41,
+      "option_G": 0.44,
+      "option_H": 0.65,
+      "option_I": 0.47,
+      "option_A": 0.45
+    }
+  },
+  {
+    "id": "M0052",
+    "topic": "Persistence Techniques",
+    "family": "infostealers",
+    "report": "a146df795b94099d05fa2533760b4728cabee46d91f047d64776b91c9bf3c3fc",
+    "question": "What registry modifications are made by the malware to achieve persistence?",
+    "options": [
+      "A. Deletes registry keys",
+      "B. Opens registry keys",
+      "C. Writes registry keys",
+      "D. Queries registry keys",
+      "E. Modifies auto-execute functionality by setting/creating a value in the registry"
+    ],
+    "gold": [
+      "E",
+      "C"
+    ],
+    "selected": [
+      "E"
+    ],
+    "scores": {
+      "option_A": 0.07,
+      "option_B": 0.27,
+      "option_C": 0.38,
+      "option_D": 0.27,
+      "option_E": 0.94
+    }
+  }
+]
