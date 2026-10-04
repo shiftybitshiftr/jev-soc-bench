@@ -1,12 +1,12 @@
-# Jev SOC test bench
+# Jev SOC bench
 
-Evaluate where **Jev fits in a security operations pipeline**: reading evidence, handling cloud identities, choosing investigation tools, recommending containment and enforcing response policy.
+A local harness for testing Jev on security evidence, cloud event fields and containment decisions. It uses the hosted Jev API; response actions are simulated.
 
-Start with **[FINDINGS.md](FINDINGS.md)** for the results, charts and takeaways from our 3,364-call evaluation. The bench runs locally; inference uses the hosted Jev API. It does not execute malware or contain real systems.
+[Findings](FINDINGS.md) covers the October 2026 evaluation: 3,364 calls, the main failures, and where Jev might fit in a SOC. The [full report](rigorous/REPORT.md) has the detailed results and methods.
 
-## Set up
+## Setup
 
-Use Python **3.9–3.12**; the recorded dependency versions are pinned. Python 3.11 is used in CI.
+Use Python 3.9–3.12. CI runs on 3.11.
 
 ```sh
 git clone https://github.com/shiftybitshiftr/jev-soc-bench.git
@@ -18,51 +18,31 @@ python scripts/setup_data.py
 python scripts/check.py
 ```
 
-`setup_data.py` restores the compressed evaluation evidence and downloads about **33 MB** of pinned public source data. Every file is checked against its size and SHA-256. Setup and validation make **no Jev API calls** and need no API key.
+Setup restores the saved traces and downloads about 33 MB of public source data, checking each file against its recorded size and SHA-256. It needs no API key. Use `--offline` to restore only the bundled traces, or skip setup entirely to read the findings.
 
-For the saved findings alone, no setup is needed. To restore traces without downloading source data, use `python scripts/setup_data.py --offline`.
+## Run
 
-## Run a new evaluation
-
-Inject your Jev key as **`TYPESAFE_API_KEY`** through your secret manager, then run:
+Set `TYPESAFE_API_KEY` in your environment through your secret manager, then:
 
 ```sh
 python scripts/new_run.py --output runs/my-eval --execute
 ```
 
-Each run gets a new directory; it cannot overwrite the recorded evaluation. Omit `--execute` to stage the run without contacting Jev. The output includes `rigorous/REPORT.md`, charts, `results/metrics.json` and exact request/response traces.
+Omit `--execute` to stage a run without calling Jev. Each run requires a new output directory. Its primary report, metrics and request/response traces go under `runs/my-eval/rigorous/`.
 
-To include the compact-evidence and repeat-control experiments:
+The suite pins `jev-1.13.0` and caps usage at 3,500 API attempts and 35 million input tokens. The recorded run cost about $1.05 at the October 2026 rate; the token cap corresponds to $1.47 at that rate. Check current pricing before running.
 
-```sh
-python scripts/new_run.py --output runs/my-full-eval --execute --followups
-```
+Add `--followups` to run the compact-evidence experiment and identical-input repeats. Their traces and combined usage are saved separately; the generated primary report does not score them.
 
-The model is pinned to **`jev-1.13.0`**. The complete suite is bounded at **3,500 API attempts / 35 million input tokens**. Our recorded run cost approximately **$1.05**; the ceiling is **$1.47 at the rate used in that run**, not a guarantee of current pricing. Follow-up scores remain separate from the primary report.
+Keep API keys out of command arguments, files and notebooks. New runs, downloaded data and expanded traces are ignored by Git.
 
-Never put a key in a command argument, tracked file or notebook. If you use Fishnet OpenBao, the existing scoped injection command is:
+## Inspect the saved run
 
-```sh
-fishnet-secrets run \
-  --env TYPESAFE_API_KEY=codex/projects/jev-soc/dev#TYPESAFE_API_KEY \
-  -- .venv/bin/python scripts/new_run.py --output runs/my-eval --execute
-```
+- [Case audit](rigorous/CASE_AUDIT.md): examples of retrieval failures, model errors and ambiguous labels.
+- [Validation](rigorous/VALIDATION.md): checks on the split, labels, traces and arithmetic.
+- [Source audit](rigorous/SOURCE_AUDIT.md): what was included and why the network dataset was excluded.
+- [Notebook](rigorous/analysis.ipynb): recompute scores from the saved responses. Start Jupyter in `rigorous/`.
 
-## What's included
+After setup, regenerate the primary results with `python rigorous/analyze.py`. To add the recorded follow-up results and rebuild the notebook, run `(cd rigorous && ../.venv/bin/python finish.py)`.
 
-| Path | Contents |
-|---|---|
-| [FINDINGS.md](FINDINGS.md) | Simplified findings, charts, metrics and pipeline recommendations |
-| [rigorous/REPORT.md](rigorous/REPORT.md) | Full evaluation methodology and results |
-| [rigorous/analysis.ipynb](rigorous/analysis.ipynb) | Executed analysis notebook; start Jupyter in `rigorous/` |
-| [rigorous/CASE_AUDIT.md](rigorous/CASE_AUDIT.md) | Concrete failure examples and label qualifications |
-| [rigorous/VALIDATION.md](rigorous/VALIDATION.md) | Evaluation checks and limitations |
-| `artifacts/` | Compressed, checksum-verified frozen inputs and raw traces |
-| `rigorous/results/` | Committed metrics and item scores; large traces restore here |
-| `dfir/` | Earlier DFIR Report scenario evaluation |
-
-To recompute the recorded primary metrics after setup: `python rigorous/analyze.py`. To regenerate its exploratory supplement and notebook: `cd rigorous && ../.venv/bin/python finish.py`.
-
-New runs are ignored by Git. Source downloads and expanded large traces are also ignored; their pinned manifests and compressed snapshots are tracked. The original evaluation scripts remain intact where required by their recorded hashes. See [data attribution](DATA_LICENSES.md) before redistributing source-derived evidence.
-
-The results support a bounded, supervised pilot. Public benchmark scores and authored policy fixtures do not establish production detection accuracy or safe autonomous containment.
+`artifacts/` holds compressed traces and inputs with a checksum manifest. `dfir/` contains the earlier DFIR Report scenarios. See [data attribution](DATA_LICENSES.md) for source licenses.

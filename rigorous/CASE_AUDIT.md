@@ -1,8 +1,8 @@
-# Error audit and label qualifications
+# Case notes
 
-This is a descriptive audit of eight selected primary failures, one earliest failure per question topic. It is not an independent SOC-expert review or a random sample of errors. Because the source file is family-ordered, these eight cases all come from the infostealer group. No labels, primary prompts, thresholds or primary results were changed as a result of this audit. The source question, all options, original labels and probabilities are saved in `evidence/manual-audit-selection.json`.
+These notes cover the first failed case in each of eight question topics. The source is ordered by malware family, so all eight are infostealers; this is a selected sample, not an independent expert review. Questions, options, labels and scores are saved in `evidence/manual-audit-selection.json`. The audit did not change labels, prompts, thresholds or primary results.
 
-| Case | Observation checked against the source JSON and exact submitted excerpts | What it establishes |
+| Case | Source and submitted evidence | Assessment |
 |---|---|---|
 | M0018 | The full report contains a “Writes files” signature, while that phrase is absent from the retrieved excerpts. The expected set includes file modification; Jev selected only file creation. | A plausible retrieval omission. This does not by itself resolve whether the original gold distinguishes creation from modification appropriately. |
 | M0020 | Gold contains only the “all of the above” option. Jev gives that option 0.90 but also selects five component answers. Several named techniques occur in both the full report and submitted evidence. | Exact-set loss partly reflects answer-set convention and correlated options. Independent binary outputs can produce an inconsistent final set. |
@@ -15,7 +15,7 @@ This is a descriptive audit of eight selected primary failures, one earliest fai
 
 The post-hoc sensitivity excluding all 71 test questions with “all/none of the above” yields 101/383 exact sets (26.4%), almost identical to the primary 120/454 (26.4%). Answer-format convention is a real item-level limitation, but does not explain away the overall result.
 
-## Cloud identity and outcome checks
+## Cloud events
 
 The model gets 118/122 original actor identifiers correct. In matched controls, the authoritative actor field is removed while other identifiers remain. It returns an unsupported candidate in 54/122 cases; 14 of these wrong choices have reported confidence at least 0.8. This is a closed candidate-set extraction task with exact schema instructions. It is not a claim that the model invented arbitrary strings or that all alternate identifiers are meaningless; the selected identifier does not satisfy the requested authoritative actor-ID contract.
 
@@ -31,6 +31,6 @@ The independent parser initially failed 16 cases due to two implementation bugs:
 - Receipt state sometimes leaked into authorization: six old-version receipts and two wrong-target receipts caused false execution denials even though current approvals were valid. Authorization and proof of past completion are distinct questions.
 - The exact gate corrects these boundary and scope mistakes using the same model judgment of whether compromise is established. This demonstrates the value of deterministic enforcement in the controlled fixture, not real-world autonomy safety.
 
-## Robustness qualifications
+## Repeats and injection
 
 The attack suite contains six fixed templates and no adaptive search. An injected answer-set change cannot automatically be credited to the attacker: identical-input repeats changed 7/60 answer sets, versus 8/60 under injection. The results support a stability concern and a need for constrained outputs and gates. They do not establish either broad prompt-injection vulnerability or resistance.

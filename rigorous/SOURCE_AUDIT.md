@@ -1,4 +1,4 @@
-# Source fitness and exclusions
+# Source notes
 
 | Source | Acquired material | Use and limitation |
 |---|---|---|
@@ -8,9 +8,9 @@
 | SOCBench | 757,641 flow rows from eight captures | Audited and excluded from primary scoring due to collection artifacts. |
 | OTRF / CyberSOCEval CTI discovery | Repository trees, documentation and the CTI question bank | Explored during source selection; not scored and not counted as evaluation coverage. |
 
-## Why network flow scores are not presented
+## Excluded network flows
 
-`evidence/network-audit.json` records the audit of the pinned SOCBench parquet. There are no exact duplicate rows. However, all **27,524** rows from the four normal captures have protocol `unknown`, missing inbound packet counts and missing outbound packet counts. The four malware captures contain both benign and attack-labeled traffic, use known numeric protocols and have no missing inbound packet counts. Their timestamp eras also differ from most normal captures. The largest capture contains 632,787 rows, so random-row splitting would heavily reuse one collection context.
+`evidence/network-audit.json` records the audit of the pinned SOCBench parquet. There are no exact duplicate rows. However, all 27,524 rows from the four normal captures have protocol `unknown`, missing inbound packet counts and missing outbound packet counts. The four malware captures contain both benign and attack-labeled traffic, use known numeric protocols and have no missing inbound packet counts. Their timestamp eras also differ from most normal captures. The largest capture contains 632,787 rows, so random-row splitting would heavily reuse one collection context.
 
 These artifacts would make a random-row accuracy result hard to interpret. Removing the visible shortcuts would not automatically remove the broader capture/domain confounding. No model result from this corpus is used to recommend Jev for production detection or compared against the SOCBench leaderboard.
 
